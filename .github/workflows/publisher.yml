@@ -5,7 +5,6 @@ on: [push, pull_request]
 jobs:
   publisher:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
 
     steps:
       - uses: actions/checkout@master
@@ -21,6 +20,7 @@ jobs:
 
       - name: Generate
         run: yarn generate
+        working-directory: ./frontend
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
