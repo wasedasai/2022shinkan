@@ -1,15 +1,16 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'frontend',
+    title: '早稲田祭2022運営スタッフ新歓公式サイト',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'robots', content: 'noindex,nofollow,noarchive' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -43,4 +44,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // GitHub Pages
+  target: 'static',
+  router: {
+    base: '/2022shinkan/',
+  },
 }
