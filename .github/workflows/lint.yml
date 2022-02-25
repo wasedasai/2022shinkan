@@ -1,0 +1,23 @@
+name: Lint
+
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.14.0
+
+      - name: Install packages
+        run: yarn Install
+        working-directory: ./frontend
+
+      - name: Lint
+        run: yarn lint
+        working-directory: ./frontend
