@@ -12,7 +12,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'noindex, nofollow, noarchive' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }],
     base: {
       href: 'router.base',
     },
@@ -31,7 +31,12 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics',
   ],
+  googleAnalytics: {
+    id: 'UA-210833452-2',
+    debug: true,
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
