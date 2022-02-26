@@ -2,7 +2,7 @@
   <div>
     <img
       class="saikun"
-      src="/ase.png"
+      src="ase.png"
       alt="先進理工学部"
       style="display: block; margin: auto"
     />
