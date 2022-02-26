@@ -1,28 +1,20 @@
 {
-  // フォーマッターの設定
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true
-  },
-  // ESLint
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true,
-  "eslint.run": "onSave",
-  // フォーマッター同士の干渉防止設定
-  "vetur.format.enable": false,
-  "html.format.enable": false,
-  "vetur.validation.template": false,
-  "javascript.format.enable": false,
-  "json.format.enable": false,
-  "vetur.validation.script": false,
-  "css.validate": false,
-  "vetur.validation.style": false,
-  // 空白文字の描画
-  "editor.renderWhitespace": "all",
-  // Unicodeのハイライト
-  "editor.unicodeHighlight.invisibleCharacters": true,
-  // Tab
-  "editor.tabSize": 2,
+	// Formatter
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.format.enable": false,
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// 空白文字の描画
+	"editor.renderWhitespace": "all",
+	// Unicodeのハイライト
+	"editor.unicodeHighlight.invisibleCharacters": true,
+	// Tab
+	"editor.tabSize": 2
 }
