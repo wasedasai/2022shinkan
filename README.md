@@ -1,7 +1,6 @@
 # 2022shinkan
 
 プロジェクトディレクトリは`frontend`です。
-Changed1
 
 ## 初回
 
