@@ -1,6 +1,6 @@
 name: publisher
 
-on: [push, pull_request]
+on: workflow_dispatch
 
 jobs:
   publisher:
