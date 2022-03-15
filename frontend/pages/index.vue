@@ -1,11 +1,9 @@
 <template>
   <div>
-    <AtomsParagraph>Hello</AtomsParagraph>
+    <h1>こんにちは。これはh1です</h1>
+    <h2>おはようございます。これはh2です。</h2>
+    <h3>こんばんは。これはh3です。</h3>
+    <p>これはパラグラフです。これもパラグラフです。すべてパラグラフです。これらはパラグラフです。</p>
+    <p>これもパラグラフです。</p>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
