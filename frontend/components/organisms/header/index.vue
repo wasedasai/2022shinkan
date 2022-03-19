@@ -97,10 +97,6 @@ export default {
   background:#dde6cb;
   cursor: pointer;
 }
-
-.current{
-}
-
 .logo_with_catch{
   width: 250px;
   margin-left: 5rem;
