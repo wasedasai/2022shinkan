@@ -3,6 +3,9 @@
     <h1>ComponentsList</h1>
     <p>このページではコンポーネントをすべて表示します</p>
     <section>
+      <AtomsButton />
+    </section>
+    <section>
       <h1>スタッフインタビュー</h1>
       <div class="staff_links">
         <OrganismsStaffLink :name="'A.T'" />
