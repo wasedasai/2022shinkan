@@ -1,0 +1,314 @@
+<script>
+export default {
+  data() {
+    return {
+      isHeaderOpen: false,
+      path: '',
+    }
+  },
+  mounted() {
+    this.path = this.$route.path
+  },
+}
+</script>
+
+<template>
+  <header class="header">
+    <div class="pc">
+      <h1>
+        <img
+          class="logo_with_catch"
+          src="~assets/images/logo_with_catch.png"
+          alt="headerロゴ"
+        />
+      </h1>
+      <nav>
+        <ul class="main-nav">
+          <li>
+            <NuxtLink
+              :to="'/'"
+              class="current"
+              :class="{
+                underline: path == '/componentslist',
+              }"
+            >
+              HOME
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="'/about-waedasai-link'"
+              class="current"
+              :class="{
+                underline: path == '/wasedasaitoha',
+              }"
+            >
+              早稲田祭とは
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="'/about-unsta-link'"
+              class="current"
+              :class="{
+                underline: path == '/unstatoha',
+              }"
+            >
+              運スタとは
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="'/admission-link'"
+              class="current"
+              :class="{
+                underline: path == '/nyukaihouhou',
+              }"
+            >
+              入会方法
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="'/event-link'"
+              :class="{
+                underline: path == '/eventichiran',
+              }"
+            >
+              新歓イベント
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="'/contact'"
+              :class="{
+                underline: path == '/otoiawase',
+              }"
+            >
+              お問い合わせ
+            </NuxtLink>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sp">
+      <h1>
+        <img
+          class="logo_with_catch_sp"
+          src="~assets/images/logo_with_catch.png"
+          alt="headerロゴ"
+        />
+      </h1>
+
+      <div class="open-button_container">
+        <button class="open-button" @click="isHeaderOpen = true">
+          <span />
+          <span />
+          <span />
+        </button>
+      </div>
+      <div class="menu-bg" :class="{ open: isHeaderOpen }">
+        <div class="sp-nav_header">
+          <div class="close-button_container">
+            <button class="close-button" @click="isHeaderOpen = false">
+              <span />
+              <span />
+              <span />
+            </button>
+          </div>
+        </div>
+        <nav class="sp-nav_contents">
+          <ul class="sp-nav">
+            <li @click="isHeaderOpen = false">
+              <NuxtLink :to="'/'">HOME</NuxtLink>
+            </li>
+            <li @click="isHeaderOpen = false">
+              <NuxtLink :to="'/about-wasedasai-link'">早稲田祭とは</NuxtLink>
+            </li>
+            <li @click="isHeaderOpen = false">
+              <NuxtLink :to="'/about-unsta-link'">運スタとは</NuxtLink>
+            </li>
+            <li @click="isHeaderOpen = false">
+              <NuxtLink :to="'/admission-link'">入会方法</NuxtLink>
+            </li>
+            <li @click="isHeaderOpen = false">
+              <NuxtLink :to="'/event-link'">新歓イベント</NuxtLink>
+            </li>
+            <li @click="isHeaderOpen = false">
+              <NuxtLink :to="'/contact'">お問い合わせ</NuxtLink>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+</template>
+
+<style scoped>
+.header {
+  position: fixed;
+  z-index: 990;
+  width: 100%;
+  background: #dde6cb;
+  border-radius: 0 12px;
+}
+
+.header .pc {
+  padding: 0.5rem;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.logo_with_catch {
+  width: 200px;
+  height: auto;
+}
+
+.header .sp {
+  display: flex;
+  padding: 0 1rem;
+  height: 80px;
+  justify-content: flex-end;
+}
+.logo_with_catch_sp {
+  width: 150px;
+  margin-left: 1rem;
+  margin-top: -3rem;
+}
+.open-button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open-button_container .open-button {
+  width: 40px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.open-button_container .open-button span {
+  width: 40px;
+  height: 4px;
+  padding: 0rem;
+  margin-right: 3rem;
+  background-color: #804b40;
+}
+.menu-bg {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 990;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background: #dde6cd;
+  padding-bottom: 4rem;
+}
+.menu-bg.open {
+  display: block;
+}
+.sp-nav_header {
+  display: flex;
+  padding: 0 1rem;
+  height: 80px;
+  justify-content: flex-end;
+}
+.close-button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button_container .close-button {
+  width: 40px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  position: relative;
+}
+
+.close-button_container .close-button span {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 40px;
+  height: 4px;
+  background-color: transparent;
+}
+
+.close-button_container .close-button span:first-child {
+  transform: rotate(45deg);
+  background-color: #804b40;
+}
+
+.close-button_container .close-button span:last-child {
+  transform: rotate(-45deg);
+  background-color: #804b40;
+}
+.sp-nav li {
+  text-align: center;
+}
+.sp-nav li a {
+  color: #804b40;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .header .sp {
+    display: none;
+  }
+
+  .header .pc {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+  }
+
+  .underline {
+    text-decoration: underline;
+    position: relative;
+  }
+
+  .underline::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #804b40;
+    position: absolute;
+    bottom: 12px;
+    left: calc(50% - 20px);
+  }
+
+  .main-nav li a {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    transition: all 0.2s;
+    color: #804b40;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .main-nav li a:hover {
+    color: #4c2219;
+  }
+}
+</style>
