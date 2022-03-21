@@ -3,6 +3,15 @@
     <h1>ComponentsList</h1>
     <p>このページではコンポーネントをすべて表示します</p>
     <section>
+      <h1>スタッフインタビュー</h1>
+      <div class="staff_links">
+        <OrganismsStaffLink :name="'A.T'" />
+        <OrganismsStaffLink :name="'K.I'" />
+        <OrganismsStaffLink :name="'K.M'" />
+        <OrganismsStaffLink :name="'A.K'" />
+      </div>
+    </section>
+    <section>
       <h1>局紹介リンク</h1>
       <div class="kyoku_links">
         <OrganismsKyokuLink :bg-type="'bgType1'">会場整備局</OrganismsKyokuLink>
@@ -25,6 +34,17 @@
 <style scoped>
 section {
   padding: 40px 0;
+}
+
+.staff_links {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .kyoku_links {
