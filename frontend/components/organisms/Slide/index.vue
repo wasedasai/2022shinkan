@@ -18,7 +18,6 @@ export default {
 <template>
   <div class="hero-wrapper">
     <div class="hero">
-      <div class="img_filter"></div>
       <div class="logo_square"></div>
       <div class="frames frame1"></div>
       <div class="frames frame2"></div>
@@ -84,16 +83,6 @@ export default {
     z-index: 2;
     pointer-events: none;
   }
-  & .img_filter {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba($color: white, $alpha: 0.4);
-    z-index: 2;
-    pointer-events: none;
-  }
   & .frames {
     position: absolute;
     max-width: 600px;
@@ -152,13 +141,14 @@ export default {
     background-image: url('~assets/images/home_hero/slide5.jpg');
   }
   & .slide_img_filter {
-    /* background: rgba($color: white, $alpha: 0.4); */
+    background: rgba($color: white, $alpha: 0.4);
     width: 100%;
     height: 100%;
   }
 }
 
 .swiper-pagination {
+  z-index: 3;
   ::v-deep .swiper-pagination-bullet {
     background: #804b40;
     opacity: 1;
