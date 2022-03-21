@@ -13,7 +13,7 @@ export default {
 <template>
   <nuxt-link :to="url" class="link">
     <img
-      src="~assets/images/demo/sample1.jpg"
+      src="~assets/images/demo_images/sample1.jpg"
       alt="staffinterviewの画像"
       class="link-image"
     />
