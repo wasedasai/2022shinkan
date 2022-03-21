@@ -11,7 +11,7 @@
   color: #fff;
   text-align: center;
   padding-top: 24%;
-  background-image: url('~assets/images/hero.JPG');
+  background-image: url('~assets/images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
