@@ -3,6 +3,9 @@
     <h1>ComponentsList</h1>
     <p>このページではコンポーネントをすべて表示します</p>
     <section>
+      <OrganismsHero />
+    </section>
+    <section>
       <AtomsButton />
     </section>
     <section>
