@@ -18,6 +18,7 @@ export default {
 <template>
   <div class="hero-wrapper">
     <div class="hero">
+      <div class="img_filter"></div>
       <div class="logo_square"></div>
       <div class="frames frame1"></div>
       <div class="frames frame2"></div>
@@ -67,7 +68,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  max-width: 1440px;
+  max-width: 2560px;
   position: relative;
   margin: auto;
   overflow: hidden;
@@ -80,7 +81,18 @@ export default {
     background-image: url('~assets/images/logos/logo_square.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 3;
+    z-index: 2;
+    pointer-events: none;
+  }
+  & .img_filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($color: white, $alpha: 0.4);
+    z-index: 2;
+    pointer-events: none;
   }
   & .frames {
     position: absolute;
@@ -89,9 +101,9 @@ export default {
     height: 275px;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
     z-index: 2;
     pointer-events: none;
-    filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
   }
   & .frame1 {
     background-image: url('~assets/images/home_hero/circles/circles_top_left.svg');
@@ -140,7 +152,7 @@ export default {
     background-image: url('~assets/images/home_hero/slide5.jpg');
   }
   & .slide_img_filter {
-    background: rgba($color: white, $alpha: 0.4);
+    /* background: rgba($color: white, $alpha: 0.4); */
     width: 100%;
     height: 100%;
   }
@@ -156,7 +168,7 @@ export default {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 2560px) {
   .hero {
     border-radius: 12px;
   }
