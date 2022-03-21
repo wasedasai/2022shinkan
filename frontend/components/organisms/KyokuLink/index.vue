@@ -26,7 +26,6 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 12px;
-  overflow: hidden;
   filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
@@ -52,6 +51,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 12px;
 }
 
 @media screen and (max-width: 750px) {
