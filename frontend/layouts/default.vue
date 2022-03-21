@@ -1,6 +1,6 @@
 <template>
   <div v-cloak>
-    <!-- <Header /> -->
+    <OrganismsHeader />
     <Nuxt />
     <!-- <Footer /> -->
   </div>
