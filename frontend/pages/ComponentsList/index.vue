@@ -3,7 +3,7 @@
     <h1>ComponentsList</h1>
     <p>このページではコンポーネントをすべて表示します</p>
     <section>
-      <OrganismsHero />
+      <OrganismsHero>Hero</OrganismsHero>
     </section>
     <section>
       <AtomsButton />
