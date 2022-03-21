@@ -1,40 +1,20 @@
 <script>
 export default {
-  props: {
-    hasHeader: {
-      type: Boolean,
-      default: true,
-    },
-    isInternal: {
-      type: Boolean,
-      default: true,
-    }
-  },
   data() {
     return {
       isHeaderOpen: false,
-      path: ''
+      path: '',
     }
   },
-  mounted () {
+  mounted() {
     this.path = this.$route.path
-  }
+  },
 }
 </script>
 
 <template>
-  <header
-    class="header"
-    :class="{
-      hasHeader,
-    }"
-  >
-    <div
-      class="pc"
-      :class="{
-        hasHeader,
-      }"
-    >
+  <header class="header">
+    <div class="pc">
       <h1>
         <img
           class="logo_with_catch"
@@ -44,9 +24,8 @@ export default {
       </h1>
       <nav>
         <ul class="main-nav">
-          <li v-show="hasHeader">
+          <li>
             <NuxtLink
-              v-if="isInternal"
               :to="'/'"
               class="current"
               :class="{
@@ -58,73 +37,63 @@ export default {
           </li>
           <li>
             <NuxtLink
-            v-if="isInternal"
-            :to="'/about-waedasai-link'"
-             class="current"
-            :class="{
-            underline: path == '/wasedasaitoha',
-            }"
-             >
-             早稲田祭とは
-             </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-             v-if="isInternal"
-             :to="'/about-unsta-link'"
-             class="current"
-            :class="{
-            underline: path == '/unstatoha',
-            }"
-             >
-             運スタとは
-             </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-            v-if="isInternal"
-            :to="'/admission-link'"
-            class="current"
-            :class="{
-            underline: path == '/nyukaihouhou',
-            }"
+              :to="'/about-waedasai-link'"
+              class="current"
+              :class="{
+                underline: path == '/wasedasaitoha',
+              }"
             >
-            入会方法
+              早稲田祭とは
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
-            v-if="isInternal"
-            :to="'/event-link'"
-            :class="{
-            underline: path == '/eventichiran',
-            }"
+              :to="'/about-unsta-link'"
+              class="current"
+              :class="{
+                underline: path == '/unstatoha',
+              }"
             >
-            新歓イベント
+              運スタとは
             </NuxtLink>
           </li>
           <li>
             <NuxtLink
-            v-if="isInternal"
-            :to="'/contact'"
-            :class="{
-            underline: path == '/otoiawase',
-            }"
+              :to="'/admission-link'"
+              class="current"
+              :class="{
+                underline: path == '/nyukaihouhou',
+              }"
             >
-            お問い合わせ
+              入会方法
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="'/event-link'"
+              :class="{
+                underline: path == '/eventichiran',
+              }"
+            >
+              新歓イベント
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              :to="'/contact'"
+              :class="{
+                underline: path == '/otoiawase',
+              }"
+            >
+              お問い合わせ
             </NuxtLink>
           </li>
         </ul>
       </nav>
     </div>
 
-    <div
-      class="sp"
-      :class="{
-        hasHeader,
-      }"
-    >
-      <h1 v-show="hasHeader">
+    <div class="sp">
+      <h1>
         <img
           class="logo_with_catch_sp"
           src="~assets/images/logo_with_catch.png"
@@ -182,28 +151,25 @@ export default {
   z-index: 990;
   width: 100%;
   background: #dde6cb;
+  border-radius: 0 12px;
 }
-.header.hasHeader {
-  background: #dde6cb;
-  cursor: pointer;
-}
-.logo_with_catch {
-  width: 250px;
-  margin-left: 5rem;
-}
+
 .header .pc {
   padding: 0.5rem;
   max-width: 1440px;
   margin: auto;
 }
+
+.logo_with_catch {
+  width: 200px;
+  height: auto;
+}
+
 .header .sp {
   display: flex;
   padding: 0 1rem;
   height: 80px;
   justify-content: flex-end;
-}
-.header .sp.hasHeader {
-  justify-content: space-between;
 }
 .logo_with_catch_sp {
   width: 150px;
@@ -225,7 +191,6 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
-
 .open-button_container .open-button span {
   width: 40px;
   height: 4px;
@@ -245,7 +210,6 @@ export default {
   background: #dde6cd;
   padding-bottom: 4rem;
 }
-
 .menu-bg.open {
   display: block;
 }
@@ -255,7 +219,6 @@ export default {
   height: 80px;
   justify-content: flex-end;
 }
-
 .close-button_container {
   display: flex;
   justify-content: center;
@@ -292,7 +255,6 @@ export default {
 .sp-nav li {
   text-align: center;
 }
-
 .sp-nav li a {
   color: #804b40;
   text-decoration: none;
@@ -311,17 +273,12 @@ export default {
   .header .pc {
     height: 80px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .header .pc.hasHeader {
     justify-content: space-between;
+    align-items: center;
   }
 
   .main-nav {
     display: flex;
-    font-size: 1.5rem;
-    padding-right: 5rem;
   }
 
   .underline {
@@ -332,12 +289,12 @@ export default {
   .underline::after {
     content: '';
     display: block;
-    width: 60px;
-    height: 3px;
+    width: 40px;
+    height: 2px;
     background-color: #804b40;
     position: absolute;
-    bottom: 0;
-    left: 10px;
+    bottom: 12px;
+    left: calc(50% - 20px);
   }
 
   .main-nav li a {
