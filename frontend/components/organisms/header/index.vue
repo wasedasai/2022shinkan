@@ -50,7 +50,7 @@ export default {
               :to="'/'"
               class="current"
               :class="{
-                underline: path == '/componentslist',
+                underline: path == '/',
               }"
             >
               HOME
@@ -86,7 +86,7 @@ export default {
             :to="'/admission-link'"
             class="current"
             :class="{
-            underline: path == '/nyukaihouhou',
+            underline: path == '/nyuukaihouhou',
             }"
             >
             入会方法
@@ -108,7 +108,7 @@ export default {
             v-if="isInternal"
             :to="'/contact'"
             :class="{
-            underline: path == '/otoiawase',
+            underline: path == '/contact',
             }"
             >
             お問い合わせ
@@ -155,16 +155,16 @@ export default {
               <NuxtLink :to="'/'">HOME</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
-              <NuxtLink :to="'/about-wasedasai-link'">早稲田祭とは</NuxtLink>
+              <NuxtLink :to="'/wasedasaiyoha'">早稲田祭とは</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
-              <NuxtLink :to="'/about-unsta-link'">運スタとは</NuxtLink>
+              <NuxtLink :to="'/unstatoha'">運スタとは</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
-              <NuxtLink :to="'/admission-link'">入会方法</NuxtLink>
+              <NuxtLink :to="'/nyuukaihouhou'">入会方法</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
-              <NuxtLink :to="'/event-link'">新歓イベント</NuxtLink>
+              <NuxtLink :to="'/eventichiran'">新歓イベント</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
               <NuxtLink :to="'/contact'">お問い合わせ</NuxtLink>
