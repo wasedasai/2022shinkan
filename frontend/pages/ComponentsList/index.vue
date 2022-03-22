@@ -4,9 +4,12 @@
     <p>このページではコンポーネントをすべて表示します</p>
     <section>
       <OrganismsHero />
+      <OrganismsQA />
     </section>
     <section>
       <AtomsButton />
+      <AtomsPartTitle>Webチーム</AtomsPartTitle>
+      <AtomsPartTitle>動画チーム</AtomsPartTitle>
     </section>
     <section>
       <h1>スタッフインタビュー</h1>
