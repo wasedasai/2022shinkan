@@ -155,7 +155,7 @@ export default {
               <NuxtLink :to="'/'">HOME</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
-              <NuxtLink :to="'/wasedasaiyoha'">早稲田祭とは</NuxtLink>
+              <NuxtLink :to="'/wasedasaitoha'">早稲田祭とは</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
               <NuxtLink :to="'/unstatoha'">運スタとは</NuxtLink>
