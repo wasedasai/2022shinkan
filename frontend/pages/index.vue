@@ -6,7 +6,9 @@
 
     <section class="important-news-section">
       <div class="bar-wrapper">
-        <div class="bar">NEWS 2022/03/25 新歓公式サイトを公開しました。</div>
+        <div class="bar">
+          <strong>NEWS</strong> 2022/03/25 新歓公式サイトを公開しました。
+        </div>
       </div>
     </section>
 
@@ -70,6 +72,47 @@
         </div>
         <div class="events_list">
           <h1>新歓イベント</h1>
+          <div class="box">
+            <div>
+              <nuxt-link to=""
+                ><img
+                  src="~assets/images/events_link/setsumeikai.png"
+                  alt="画像"
+              /></nuxt-link>
+            </div>
+            <div>
+              <nuxt-link to=""
+                ><img src="~assets/images/events_link/shabereku.png" alt="画像"
+              /></nuxt-link>
+            </div>
+            <div>
+              <nuxt-link to=""
+                ><img src="~assets/images/events_link/shindan.png" alt="画像"
+              /></nuxt-link>
+            </div>
+            <div>
+              <nuxt-link to=""
+                ><img src="~assets/images/events_link/tour.png" alt="画像"
+              /></nuxt-link>
+            </div>
+            <div>
+              <nuxt-link to=""
+                ><img src="~assets/images/events_link/welcome.png" alt="画像"
+              /></nuxt-link>
+            </div>
+            <div>
+              <nuxt-link to=""
+                ><img src="~assets/images/events_link/zeronenn.png" alt="画像"
+              /></nuxt-link>
+            </div>
+            <div>
+              <nuxt-link to=""
+                ><img
+                  src="~assets/images/events_link/hokenshitsu.png"
+                  alt="画像"
+              /></nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -199,6 +242,24 @@
   padding: 1rem 0;
 }
 
+.entrance-section .events_list .box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.entrance-section .events_list .box > div {
+  max-width: 240px;
+  filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.entrance-section .events_list .box > div:hover {
+  filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
+}
+
 @media screen and (max-width: 720px) {
   .entrance-section .button-wrapper {
     flex-direction: column;
@@ -207,6 +268,14 @@
   .entrance-section .button-wrapper .button {
     width: 100%;
   }
+
+  .entrance-section .events_list .box > div {
+    max-width: 100%;
+  }
+}
+
+.news-section .section-inner {
+  padding-top: 0;
 }
 
 .news-section .section-title {

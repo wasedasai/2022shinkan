@@ -65,14 +65,63 @@
       </div>
     </section>
     <section class="photos-section">
-      <div class="section-inner">
+      <div class="wrapper">
         <h1 class="section-title">フォトギャラリー</h1>
+        <div class="container">
+          <div class="item"><img src="~assets/images/photos/photo1.jpg" /></div>
+          <div class="item"><img src="~assets/images/photos/photo2.jpg" /></div>
+          <div class="item"><img src="~assets/images/photos/photo3.jpg" /></div>
+          <div class="item"><img src="~assets/images/photos/photo4.jpg" /></div>
+          <div class="item"><img src="~assets/images/photos/photo5.jpg" /></div>
+          <div class="item"><img src="~assets/images/photos/photo6.jpg" /></div>
+          <div class="item"><img src="~assets/images/photos/photo7.jpg" /></div>
+          <div class="item"><img src="~assets/images/photos/photo8.jpg" /></div>
+          <div class="item"><img src="~assets/images/photos/photo9.jpg" /></div>
+          <div class="item">
+            <img src="~assets/images/photos/photo10.jpg" />
+          </div>
+          <div class="item">
+            <img src="~assets/images/photos/photo11.jpg" />
+          </div>
+          <div class="item">
+            <img src="~assets/images/photos/photo12.jpg" />
+          </div>
+          <div class="item">
+            <img src="~assets/images/photos/photo13.jpg" />
+          </div>
+          <div class="item">
+            <img src="~assets/images/photos/photo14.jpg" />
+          </div>
+          <div class="item">
+            <img src="~assets/images/photos/photo15.jpg" />
+          </div>
+          <div class="item">
+            <img src="~assets/images/photos/photo16.jpg" />
+          </div>
+        </div>
       </div>
     </section>
   </main>
 </template>
 
 <style scoped>
+.photos-section .container {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 2fr 0.5fr 1.5fr 2fr;
+  grid-template-rows: 180px 100px 80px 160px;
+}
+
+.photos-section .container .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  padding: 80px 0;
+}
+
 .hero-wrapper {
   padding-top: 80px;
   background-color: #dde6cb;
