@@ -146,7 +146,7 @@ export default {
   height: 4px;
   padding: 0rem;
   margin-right: 3rem;
-  background-color: #804b40;
+  background-color: #4c2219;
 }
 
 .menu-bg {
@@ -197,18 +197,18 @@ export default {
 
 .close-button_container .close-button span:first-child {
   transform: rotate(45deg);
-  background-color: #804b40;
+  background-color: #4c2219;
 }
 
 .close-button_container .close-button span:last-child {
   transform: rotate(-45deg);
-  background-color: #804b40;
+  background-color: #4c2219;
 }
 .sp-nav li {
   text-align: center;
 }
 .sp-nav li a {
-  color: #804b40;
+  color: #4c2219;
   text-decoration: none;
   font-weight: bold;
   display: block;
@@ -258,7 +258,7 @@ export default {
     display: block;
     width: 40px;
     height: 2px;
-    background-color: #804b40;
+    background-color: #4c2219;
     position: absolute;
     bottom: 12px;
     left: calc(50% - 20px);
@@ -269,13 +269,13 @@ export default {
     width: 100%;
     padding: 1rem;
     transition: all 0.2s;
-    color: #804b40;
+    color: #4c2219;
     text-decoration: none;
     font-weight: bold;
   }
 
   .main-nav li a:hover {
-    color: #4c2219;
+    color: #190808;
   }
 }
 </style>
