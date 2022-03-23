@@ -1,0 +1,9 @@
+<template>
+  <main>
+    <div>
+      <OrganismsHero>
+        各局紹介
+     </OrganismsHero>
+    </div>
+  </main>
+</template>
