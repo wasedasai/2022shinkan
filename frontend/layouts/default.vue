@@ -2,6 +2,6 @@
   <div v-cloak>
     <OrganismsHeader />
     <Nuxt />
-    <!-- <Footer /> -->
+    <OrganismsFooter />
   </div>
 </template>

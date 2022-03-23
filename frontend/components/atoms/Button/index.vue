@@ -24,7 +24,7 @@
 }
 
 .content {
-  color: #804b40;
+  color: #4c2219;
   text-decoration: none;
   font-size: 16px;
   text-align: center;

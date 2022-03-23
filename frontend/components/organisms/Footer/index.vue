@@ -11,13 +11,16 @@
           <ul class="nav-list">
             <li><NuxtLink :to="'/'">HOME</NuxtLink></li>
           </ul>
+          <hr />
           <ul class="nav-list">
             <li><NuxtLink :to="'/about'">早稲田祭とは</NuxtLink></li>
           </ul>
+          <hr />
           <ul class="nav-list">
             <li><NuxtLink :to="'/staff'">運スタとは</NuxtLink></li>
             <li><NuxtLink :to="'/real'">運スタの全体像をつかもう</NuxtLink></li>
           </ul>
+          <hr />
           <ul class="nav-list">
             <li><NuxtLink :to="'/entrance'">入会方法</NuxtLink></li>
             <li><NuxtLink :to="'/events'">新歓イベント情報</NuxtLink></li>
@@ -27,10 +30,9 @@
         </div>
       </div>
       <div class="footer-sns-title">
-        <Paragraph :align="'center'" class="title"> 公式SNSリンク </Paragraph>
+        <h2 class="title">公式SNSリンク</h2>
       </div>
       <div class="sns-links-container">
-        <!-- TODO -->
         <a
           href="https://twitter.com/wasedasai_new"
           target="_blank"
@@ -74,41 +76,25 @@
 
 <style scoped>
 .footer {
-  margin-top: 2rem;
   width: 100%;
   background-color: #dde6cb;
   color: #fff;
-  padding: 2rem 0;
-}
-
-.footer-left {
-  display: inline-block;
-  height: 100%;
-  width: 200%;
+  padding: 3rem 1rem;
+  position: relative;
 }
 
 .footer-inner {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
 }
 
 .footer-body {
   display: flex;
   justify-content: center;
-  padding: 2rem;
 }
 
 .footer-logo-container {
-  max-width: 300px;
-}
-
-.nav-list {
-  width: 100%;
-  display: block;
-  align-items: center;
-  padding-top: 5rem;
-  gap: 2rem;
-  width: 70%;
+  max-width: 240px;
 }
 
 .footer-navi-list {
@@ -116,35 +102,77 @@
   width: 100%;
   height: 100%;
   padding: 0.5rem;
-  gap: 5px;
+}
+
+hr {
+  display: none;
+}
+
+.nav-list {
+  width: 100%;
 }
 
 .nav-list li a {
   display: flex;
-  width: 70%;
+  width: 100%;
   height: 100%;
-  padding: 0.5rem;
-  color: #804b40;
+  padding: 0.5rem 1rem;
+  color: #4c2219;
   text-decoration: none;
-  font-size: 16px;
+}
+
+.nav-list li a:hover {
+  color: #804b40;
+}
+
+.footer-sns-title {
+  text-align: center;
+  color: #4c2219;
+  padding-top: 1rem;
 }
 
 .sns-links-container {
   display: flex;
   justify-content: center;
-  gap: 6rem;
-  padding-top: 2rem;
+  gap: 4rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .sns-links-container .sns-link {
-  width: 50px;
+  width: 48px;
+  filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
+  transition-duration: 0.4s;
+}
+.sns-links-container .sns-link:hover {
+  filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
 }
 
-.footer-sns-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  color: #804b40;
+@media screen and (max-width: 720px) {
+  .footer-logo-container {
+    display: none;
+  }
+
+  .footer-navi-list {
+    max-width: 420px;
+    flex-direction: column;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sns-links-container {
+    gap: 2rem;
+  }
+
+  hr {
+    display: block;
+    height: 0.4px;
+    background-color: #804b40;
+    border: none;
+    margin: 0;
+  }
 }
 </style>

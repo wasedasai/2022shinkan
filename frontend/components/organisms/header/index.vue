@@ -19,15 +19,7 @@ export default {
       <nav>
         <ul class="main-nav">
           <li>
-            <NuxtLink
-              :to="'/'"
-              class="current"
-              :class="{
-                underline: path == '/',
-              }"
-            >
-              HOME
-            </NuxtLink>
+            <NuxtLink :to="'/'"> HOME </NuxtLink>
           </li>
           <li>
             <NuxtLink :to="'/wasedasaitoha'"> 早稲田祭とは </NuxtLink>
