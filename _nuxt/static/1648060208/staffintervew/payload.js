@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/staffintervew", {data:[{}],fetch:{},mutations:void 0});
