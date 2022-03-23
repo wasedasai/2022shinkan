@@ -3,13 +3,30 @@
     <h1>ComponentsList</h1>
     <p>このページではコンポーネントをすべて表示します</p>
     <section>
+      <h1>Hero</h1>
       <OrganismsHero />
-      <OrganismsQA />
+    </section>
+    <section>
+      <h1>QA</h1>
+      <OrganismsQA>
+        <template #question
+          >ここに質問が入ります。ここに質問が入ります。</template
+        >
+        <template #answer
+          ><p>
+            ここに回答が入ります。ここに回答が入りますここに回答が入りますここに回答が入りますここに回答が入ります
+          </p>
+          <p>ここに回答が入ります</p></template
+        >
+      </OrganismsQA>
+    </section>
+    <section>
+      <h1>PartTitle</h1>
+      <AtomsPartTitle>Webチーム</AtomsPartTitle>
+      <AtomsPartTitle>動画チーム</AtomsPartTitle>
     </section>
     <section>
       <AtomsButton />
-      <AtomsPartTitle>Webチーム</AtomsPartTitle>
-      <AtomsPartTitle>動画チーム</AtomsPartTitle>
     </section>
     <section>
       <h1>スタッフインタビュー</h1>

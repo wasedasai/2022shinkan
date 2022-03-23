@@ -1,38 +1,116 @@
+<script>
+export default {
+  data() {
+    return {
+      isOpen: false,
+    }
+  },
+}
+</script>
+
 <template>
   <div>
     <div class="QA">
-      <h1 class="QAbox">
-        <h2 class="Q">Q</h2>
-      </h1>
-      <h1 class="head-border"></h1>
-      <h1 class="plusbutton"></h1>
+      <div class="q_box">
+        <h2 class="Q">
+          <div>Q.&nbsp;</div>
+          <div>
+            <slot name="question" />
+          </div>
+        </h2>
+        <div class="button" @click="isOpen = !isOpen">
+          <AtomsIconsPlus v-if="!isOpen" class="icon" fill="#804b40" />
+          <AtomsIconsMinus v-if="isOpen" class="icon" fill="#804b40" />
+        </div>
+      </div>
+      <transition name="fade">
+        <div v-if="isOpen" class="a_box">
+          <hr />
+          <div class="A">
+            <div>
+              <slot name="answer" />
+            </div>
+          </div>
+        </div>
+      </transition>
     </div>
   </div>
 </template>
 
 <style scoped>
-.QAbox {
+.q_box {
   color: #4c2219;
   background-color: #dde6cd;
-  width: 90%;
-  margin: 5% 5% 5% 5%;
-  border-radius: 10px;
-  padding: 10px 10px 80px;
-  border-width: 90%;
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+  padding: 1rem 2rem;
+  filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .Q {
-  font-size: 24px;
-  font-weight: bold;
   color: #4c2219;
   position: relative;
+  padding: 0;
+  display: flex;
 }
-.Q::after {
-  content: '';
-  width: 80%;
-  height: 1%;
-  background-color: #4c2219;
-  bottom: 0;
-  display: inline-block;
+
+.button {
+  background: #000;
+  width: 52px;
+  height: 52px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-shrink: 0;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(2px 2px 1px rgb(0 0 0 / 0.4));
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  will-change: opacity;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+hr {
+  height: 2px;
+  background-color: #804b40;
+  border: none;
+  margin: 0;
+}
+
+.a_box {
+  color: #4c2219;
+  background-color: #dde6cd;
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+  padding: 0px 2rem 1rem;
+  filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.A {
+  padding: 8px 0;
+  display: flex;
+}
+
+.A h2 {
+  padding: 0;
 }
 </style>

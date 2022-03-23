@@ -1,9 +1,6 @@
 <template>
   <div class="PartTitle">
-    <img
-      class="image"
-      src="~assets/images/PartTitle_image/花緑茶オレンジ.png"
-    />
+    <img class="image" src="~assets/images/flowers/green_cha_orange.png" />
     <h2 class="content"><slot /></h2>
   </div>
 </template>
@@ -15,11 +12,10 @@
 }
 .content {
   color: #4c2219;
-  padding: 0;
-  position: relative;
+  padding: 0; /* h2のデフォルトのpaddingを上書き */
 }
 .image {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: auto;
 }
 </style>
