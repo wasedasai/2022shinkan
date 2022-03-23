@@ -24,7 +24,7 @@ export default {
 <style scoped>
 .kyokulink-wrapper {
   width: 40%;
-  height: 240px;
+  height: 180px;
   overflow: hidden;
   border-radius: 12px;
   filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
@@ -48,7 +48,28 @@ export default {
   transform: scale(1.2);
 }
 .bgType1 {
-  background-image: url('~assets/images/kyoku_link/sample.jpg');
+  background-image: url('~assets/images/kyoku_link/bgType1.jpg');
+}
+.bgType2 {
+  background-image: url('~assets/images/kyoku_link/bgType2.jpg');
+}
+.bgType3 {
+  background-image: url('~assets/images/kyoku_link/bgType3.jpg');
+}
+.bgType4 {
+  background-image: url('~assets/images/kyoku_link/bgType4.jpg');
+}
+.bgType5 {
+  background-image: url('~assets/images/kyoku_link/bgType5.jpg');
+}
+.bgType6 {
+  background-image: url('~assets/images/kyoku_link/bgType6.jpg');
+}
+.bgType7 {
+  background-image: url('~assets/images/kyoku_link/bgType7.jpg');
+}
+.bgType8 {
+  background-image: url('~assets/images/kyoku_link/bgType8.jpg');
 }
 
 .link {
@@ -71,7 +92,7 @@ export default {
 @media screen and (max-width: 750px) {
   .kyokulink-wrapper {
     width: 100%;
-    height: 120px;
+    height: 180px;
   }
 }
 </style>

@@ -24,9 +24,10 @@ export default {
 <style scoped>
 .link {
   display: block;
-  width: 240px;
   text-decoration: none;
   color: #190808;
+  width: 100%;
+  max-width: 320px;
 }
 
 .link-image {
