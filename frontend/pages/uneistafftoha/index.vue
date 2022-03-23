@@ -4,11 +4,50 @@
       <OrganismsHero>運営スタッフとは</OrganismsHero>
     </div>
 
+    <section class="daihyo-section">
+      <div class="section-inner">
+        <div class="img-wrapper">
+          <img src="~assets/images/daihyo.jpg" alt="画像" />
+        </div>
+        <div class="content">
+          <!-- TODO: 文字情報 -->
+          <p>
+            はじめまして。<br />早稲田祭2022運営スタッフ
+            代表の高山都と申します。
+          </p>
+          <p>早稲田には、みなさん一人ひとりが輝ける場所が、必ずあります。</p>
+          <p>
+            早大生は、その場所を見つけるべくさまざまなことに挑戦し、時には挫折して、それでも、自分がときめき、魅せられる、そんな「何か」を追い求めて進み続けます。
+          </p>
+          <p>
+            そんな学生たちの本気と情熱があふれんばかりに詰まった1年に一度の祭が、早稲田祭です。
+          </p>
+          <p>
+            そして、この祭を主催・運営するのが私たち、早稲田祭2022運営スタッフです。
+          </p>
+          <p>「春に出会う、秋に咲く」</p>
+          <p>
+            春に運営スタッフと出会ったみなさん。
+            ”早稲田文化が一斉に花開く早稲田祭”というまだ見ぬ景色を夢見て。
+            一歩ずつ進み続けたその先には、立派な運営スタッフの1人として秋の大舞台で花を咲かせる瞬間が待っています。
+          </p>
+          <p>
+            みなさんと共に「祭」と書かれたえんじのはっぴを背負って活動できる日を楽しみにしています。
+          </p>
+        </div>
+      </div>
+    </section>
+
     <section class="departs-section">
       <div class="section-inner">
         <h1 class="section-title">局紹介</h1>
         <p>早稲田祭2022運営スタッフには、全部で8つの局があります。</p>
         <p>みなさんが新規入会したら、必ずいずれかの局に所属します。</p>
+        <div class="button-wrapper">
+          <AtomsButton :url="'zentaizowotukamou'"
+            >運スタの全体像をつかもう</AtomsButton
+          >
+        </div>
         <div class="box">
           <OrganismsKyokuLink :bg-type="'bgType1'"
             >会場整備局</OrganismsKyokuLink
@@ -54,8 +93,35 @@
   margin: auto;
 }
 
+.daihyo-section .section-inner {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.daihyo-section .img-wrapper {
+  max-width: 240px;
+  margin: 0;
+}
+
+.daihyo-section .img-wrapper img {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 750px) {
+  .daihyo-section .section-inner {
+    flex-direction: column;
+  }
+
+  .daihyo-section .img-wrapper {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
 .departs-section {
   text-align: center;
+  background: #dde6cb;
 }
 
 .departs-section .section-title {
@@ -71,6 +137,12 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+}
+
+.departs-section .button-wrapper {
+  margin: auto;
+  max-width: 320px;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 750px) {
