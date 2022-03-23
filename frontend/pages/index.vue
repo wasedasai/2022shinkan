@@ -96,7 +96,7 @@
 
 .section-inner {
   max-width: 1200px;
-  padding: 40px 1rem;
+  padding: 80px 1rem;
   margin: auto;
 }
 
