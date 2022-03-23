@@ -1,11 +1,14 @@
 <template>
-  <div>
-    <h1>こんにちは。これはh1です</h1>
-    <h2>おはようございます。これはh2です。</h2>
-    <h3>こんばんは。これはh3です。</h3>
-    <p>
-      これはパラグラフです。これもパラグラフです。すべてパラグラフです。これらはパラグラフです。
-    </p>
-    <p>これもパラグラフです。</p>
-  </div>
+  <main>
+    <div class="slide-wrapper">
+      <OrganismsSlide />
+    </div>
+  </main>
 </template>
+
+<style scoped>
+.slide-wrapper {
+  padding-top: 80px;
+  background-color: #dde6cb;
+}
+</style>

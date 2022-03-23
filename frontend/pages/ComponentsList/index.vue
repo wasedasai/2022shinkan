@@ -4,7 +4,7 @@
     <p>このページではコンポーネントをすべて表示します</p>
     <section>
       <h1>Hero</h1>
-      <OrganismsHero />
+      <OrganismsHero>Hero</OrganismsHero>
     </section>
     <section>
       <h1>QA</h1>
