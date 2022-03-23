@@ -8,7 +8,6 @@
 
 <style scoped>
 .hero {
-  color: #fff;
   background-image: url('~assets/images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,6 +17,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.content {
+  color: #fff;
+}
+
 @media screen and (max-width: 750px) {
   .hero {
     height: 120px;

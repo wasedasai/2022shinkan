@@ -1,6 +1,19 @@
+<script>
+export default {
+  props: {
+    url: {
+      type: String,
+      default: '/',
+    },
+  },
+}
+</script>
+
 <template>
   <div class="button">
-    <div class="content"><slot /></div>
+    <nuxt-link :to="url" class="link"
+      ><div class="content"><slot /></div
+    ></nuxt-link>
   </div>
 </template>
 
@@ -14,7 +27,6 @@
   border-width: 4px;
   border-radius: 12px;
   padding: 0.5rem;
-  cursor: pointer;
   transition: all 0.3s;
   box-shadow: 4px 4px 2px gray;
 }
@@ -23,9 +35,12 @@
   filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
 }
 
+.link {
+  text-decoration: none;
+}
+
 .content {
   color: #4c2219;
-  text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   text-align: center;

@@ -24,7 +24,7 @@
               </p>
             </div>
             <div class="button-wrapper">
-              <AtomsButton>詳しく知る</AtomsButton>
+              <AtomsButton :url="'wasedasaitoha'">詳しく知る</AtomsButton>
             </div>
           </div>
           <div class="pc_only img_wrapper">
@@ -38,16 +38,16 @@
           </div>
           <div class="content">
             <div>
-              <h1>早稲田祭とは</h1>
+              <h1>運営スタッフとは</h1>
               <div class="sp_only">
                 <img src="~assets/images/demo_images/sample2.jpg" alt="画像" />
               </div>
               <p>
-                毎年11月上旬に開催される早稲田祭は、例年約20万人の方がご来場くださっており、日本最大級の学園祭の一つです。
+                約600人の学生が、8個の局に分かれて早稲田祭の成功に向けて尽力します。
               </p>
             </div>
             <div class="button-wrapper">
-              <AtomsButton>詳しく知る</AtomsButton>
+              <AtomsButton :url="'uneistafftoha'">詳しく知る</AtomsButton>
             </div>
           </div>
         </div>
@@ -58,8 +58,8 @@
       <div class="section-inner">
         <h1 class="section-title">入会を考えている君へ</h1>
         <div class="button-wrapper">
-          <AtomsButton>入会方法</AtomsButton>
-          <AtomsButton>よくある質問</AtomsButton>
+          <AtomsButton :url="'nyuukaihouhou'">入会方法</AtomsButton>
+          <AtomsButton :url="'yokuarushitumon'">よくある質問</AtomsButton>
         </div>
         <div class="events_list">
           <h1>新歓イベント</h1>
