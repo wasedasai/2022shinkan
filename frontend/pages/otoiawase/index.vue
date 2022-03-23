@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="hero-wrapper">
-      <OrganismsHero>よくある質問</OrganismsHero>
+      <OrganismsHero>お問い合わせ</OrganismsHero>
     </div>
 
     <section>
