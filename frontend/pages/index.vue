@@ -19,9 +19,13 @@
               <div class="sp_only">
                 <img src="~assets/images/demo_images/sample1.jpg" alt="画像" />
               </div>
-              <p>
-                毎年11月上旬に開催される早稲田祭は、例年約20万人の方がご来場くださっており、日本最大級の学園祭の一つです。
-              </p>
+              <div class="para">
+                <p>
+                  年に1度、早稲田キャンパス、戸山キャンパスとその周辺地域で行われる日本最大級の学園祭。
+                </p>
+                <p>早稲田文化を最もアツく感じることができる祭。</p>
+                <p>それが、早稲田祭。</p>
+              </div>
             </div>
             <div class="button-wrapper">
               <AtomsButton :url="'wasedasaitoha'">詳しく知る</AtomsButton>
@@ -42,9 +46,12 @@
               <div class="sp_only">
                 <img src="~assets/images/demo_images/sample2.jpg" alt="画像" />
               </div>
-              <p>
-                約600人の学生が、8個の局に分かれて早稲田祭の成功に向けて尽力します。
-              </p>
+              <div class="para">
+                <!-- TODO: 文字 -->
+                <p>
+                  約600人の学生が、8個の局に分かれて早稲田祭の成功に向けて尽力します。
+                </p>
+              </div>
             </div>
             <div class="button-wrapper">
               <AtomsButton :url="'uneistafftoha'">詳しく知る</AtomsButton>
@@ -148,14 +155,13 @@
 .about-section .box .button-wrapper {
   display: flex;
   justify-content: end;
-  padding-top: 1rem;
 }
 
 .about-section .box img {
   border-radius: 12px;
 }
 
-.about-section .box p {
+.about-section .box .para {
   padding: 1rem 0;
 }
 
@@ -205,6 +211,7 @@
 
 .news-section .section-title {
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .news-section .box {

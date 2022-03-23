@@ -176,7 +176,7 @@ hr {
 
   hr {
     display: block;
-    height: 0.4px;
+    height: 1px;
     background-color: #804b40;
     border: none;
     margin: 0;
