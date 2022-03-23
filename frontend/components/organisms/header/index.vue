@@ -3,11 +3,7 @@ export default {
   data() {
     return {
       isHeaderOpen: false,
-      path: '',
     }
-  },
-  mounted() {
-    this.path = this.$route.path
   },
 }
 </script>
@@ -15,13 +11,11 @@ export default {
 <template>
   <header class="header">
     <div class="pc">
-      <h1>
-        <img
-          class="logo_with_catch"
-          src="~assets/images/logo_with_catch.png"
-          alt="headerロゴ"
-        />
-      </h1>
+      <NuxtLink :to="'/'">
+        <h1 class="logo_with_catch-wrapper">
+          <div class="logo_with_catch" />
+        </h1>
+      </NuxtLink>
       <nav>
         <ul class="main-nav">
           <li>
@@ -36,70 +30,30 @@ export default {
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink
-              :to="'/about-waedasai-link'"
-              class="current"
-              :class="{
-                underline: path == '/wasedasaitoha',
-              }"
-            >
-              早稲田祭とは
-            </NuxtLink>
+            <NuxtLink :to="'/wasedasaitoha'"> 早稲田祭とは </NuxtLink>
           </li>
           <li>
-            <NuxtLink
-              :to="'/about-unsta-link'"
-              class="current"
-              :class="{
-                underline: path == '/unstatoha',
-              }"
-            >
-              運スタとは
-            </NuxtLink>
+            <NuxtLink :to="'/unstatoha'"> 運スタとは </NuxtLink>
           </li>
           <li>
-            <NuxtLink
-              :to="'/admission-link'"
-              class="current"
-              :class="{
-                underline: path == '/nyukaihouhou',
-              }"
-            >
-              入会方法
-            </NuxtLink>
+            <NuxtLink :to="'/nyukaihouhou'"> 入会方法 </NuxtLink>
           </li>
           <li>
-            <NuxtLink
-              :to="'/event-link'"
-              :class="{
-                underline: path == '/eventichiran',
-              }"
-            >
-              新歓イベント
-            </NuxtLink>
+            <NuxtLink :to="'/eventichiran'"> 新歓イベント </NuxtLink>
           </li>
           <li>
-            <NuxtLink
-              :to="'/contact'"
-              :class="{
-                underline: path == '/otoiawase',
-              }"
-            >
-              お問い合わせ
-            </NuxtLink>
+            <NuxtLink :to="'/otoiawase'"> お問い合わせ </NuxtLink>
           </li>
         </ul>
       </nav>
     </div>
 
     <div class="sp">
-      <h1>
-        <img
-          class="logo_with_catch_sp"
-          src="~assets/images/logo_with_catch.png"
-          alt="headerロゴ"
-        />
-      </h1>
+      <NuxtLink :to="'/'">
+        <h1 class="logo_with_catch-wrapper">
+          <div class="logo_with_catch_sp" />
+        </h1>
+      </NuxtLink>
 
       <div class="open-button_container">
         <button class="open-button" @click="isHeaderOpen = true">
@@ -108,6 +62,7 @@ export default {
           <span />
         </button>
       </div>
+
       <div class="menu-bg" :class="{ open: isHeaderOpen }">
         <div class="sp-nav_header">
           <div class="close-button_container">
@@ -148,34 +103,36 @@ export default {
 <style scoped>
 .header {
   position: fixed;
-  z-index: 990;
+  z-index: 900;
   width: 100%;
   background: #dde6cb;
-  border-radius: 0 12px;
+  filter: drop-shadow(0px 4px 2px rgb(0 0 0 / 0.4));
+}
+
+.logo_with_catch-wrapper {
+  padding: 0;
 }
 
 .header .pc {
-  padding: 0.5rem;
-  max-width: 1440px;
-  margin: auto;
-}
-
-.logo_with_catch {
-  width: 200px;
-  height: auto;
+  display: none;
 }
 
 .header .sp {
   display: flex;
   padding: 0 1rem;
   height: 80px;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
+
 .logo_with_catch_sp {
-  width: 150px;
-  margin-left: 1rem;
-  margin-top: -3rem;
+  width: 180px;
+  height: 80px;
+  background-image: url('~assets/images/logos/logo_with_catch.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .open-button_container {
   display: flex;
   justify-content: center;
@@ -190,6 +147,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 }
 .open-button_container .open-button span {
   width: 40px;
@@ -198,21 +156,22 @@ export default {
   margin-right: 3rem;
   background-color: #804b40;
 }
+
 .menu-bg {
   position: fixed;
   display: none;
   top: 0;
   left: 0;
-  z-index: 990;
   width: 100%;
-  height: 100%;
-  overflow-y: scroll;
+  height: 100vh;
   background: #dde6cd;
   padding-bottom: 4rem;
+  z-index: 910;
 }
 .menu-bg.open {
   display: block;
 }
+
 .sp-nav_header {
   display: flex;
   padding: 0 1rem;
@@ -232,6 +191,7 @@ export default {
   background: transparent;
   padding: 0;
   position: relative;
+  cursor: pointer;
 }
 
 .close-button_container .close-button span {
@@ -265,28 +225,43 @@ export default {
   padding: 0.5rem;
 }
 
+.sp-nav li a:hover {
+  color: #4c2219;
+}
+
 @media screen and (min-width: 1024px) {
   .header .sp {
     display: none;
   }
 
   .header .pc {
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1440px;
+    height: 80px;
+    margin: auto;
+    padding: 0.5rem;
+  }
+
+  .header .pc .logo_with_catch {
+    width: 200px;
+    height: 80px;
+    background-image: url('~assets/images/logos/logo_with_catch.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .main-nav {
     display: flex;
   }
 
-  .underline {
-    text-decoration: underline;
+  .main-nav .nuxt-link-exact-active {
     position: relative;
   }
 
-  .underline::after {
+  .main-nav .nuxt-link-exact-active::after {
     content: '';
     display: block;
     width: 40px;

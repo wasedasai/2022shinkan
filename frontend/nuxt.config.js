@@ -12,7 +12,13 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'noindex, nofollow, noarchive' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      {
+        href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css',
+        rel: 'stylesheet',
+      },
+    ],
     base: {
       href: 'router.base',
     },
@@ -22,7 +28,7 @@ export default {
   css: ['@/assets/css/reset.css', '@/assets/css/global.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '~/plugins/swiper', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
