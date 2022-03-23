@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="hero">
-      <h1 class="content"><slot/></h1>
+      <h1 class="content">
+        <slot/>
+      </h1>
     </div>
   </div>
 </template>
