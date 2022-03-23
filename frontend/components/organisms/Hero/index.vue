@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="hero">
-      <h1 class="content">
-        Hero
-      </h1>
+      <h1 class="content">Hero</h1>
     </div>
   </div>
 </template>
@@ -11,15 +9,15 @@
 <style scoped>
 .hero {
   color: #fff;
- text-align: center;
- padding-top: 24%;
- background-image: url('~assets/images/hero.JPG');
- background-repeat: no-repeat;
- background-size: cover;
- width: 100%;
- height: auto;
- position: relative;
- margin-top: 80px;
+  text-align: center;
+  padding-top: 24%;
+  background-image: url('~assets/images/hero.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 80px;
 }
 
 .content {
