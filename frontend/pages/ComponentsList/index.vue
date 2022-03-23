@@ -3,6 +3,10 @@
     <h1>ComponentsList</h1>
     <p>このページではコンポーネントをすべて表示します</p>
     <section>
+      <h1>Footer</h1>
+      <OrganismsFooter />
+    </section>
+    <section>
       <h1>Hero</h1>
       <OrganismsHero>Hero</OrganismsHero>
     </section>

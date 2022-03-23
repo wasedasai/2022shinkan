@@ -12,7 +12,13 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'noindex, nofollow, noarchive' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      {
+        href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css',
+        rel: 'stylesheet',
+      },
+    ],
     base: {
       href: 'router.base',
     },
