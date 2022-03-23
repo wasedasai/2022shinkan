@@ -25,10 +25,10 @@ export default {
             <NuxtLink :to="'/wasedasaitoha'"> 早稲田祭とは </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="'/unstatoha'"> 運スタとは </NuxtLink>
+            <NuxtLink :to="'/uneistafftoha'"> 運スタとは </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="'/nyukaihouhou'"> 入会方法 </NuxtLink>
+            <NuxtLink :to="'/nyuukaihouhou'"> 入会方法 </NuxtLink>
           </li>
           <li>
             <NuxtLink :to="'/eventichiran'"> 新歓イベント </NuxtLink>
@@ -74,7 +74,7 @@ export default {
               <NuxtLink :to="'/wasedasaitoha'">早稲田祭とは</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
-              <NuxtLink :to="'/unstatoha'">運スタとは</NuxtLink>
+              <NuxtLink :to="'/uneistafftoha'">運スタとは</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
               <NuxtLink :to="'/nyuukaihouhou'">入会方法</NuxtLink>
@@ -83,7 +83,7 @@ export default {
               <NuxtLink :to="'/eventichiran'">新歓イベント</NuxtLink>
             </li>
             <li @click="isHeaderOpen = false">
-              <NuxtLink :to="'/contact'">お問い合わせ</NuxtLink>
+              <NuxtLink :to="'/otoiawase'">お問い合わせ</NuxtLink>
             </li>
           </ul>
         </nav>

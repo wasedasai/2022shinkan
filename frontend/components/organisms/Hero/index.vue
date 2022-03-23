@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 200px;
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;

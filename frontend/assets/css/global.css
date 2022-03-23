@@ -15,6 +15,7 @@ h3 {
 
 h1 {
   font-size: 24px;
+  color: #4c2219;
 }
 
 h2 {
@@ -48,4 +49,18 @@ li {
 
 img {
   max-width: 100%;
+}
+
+.sp_only {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .pc_only {
+    display: none;
+  }
+
+  .sp_only {
+    display: block;
+  }
 }

@@ -13,19 +13,26 @@
           </ul>
           <hr />
           <ul class="nav-list">
-            <li><NuxtLink :to="'/about'">早稲田祭とは</NuxtLink></li>
+            <li><NuxtLink :to="'/wasedasaitoha'">早稲田祭とは</NuxtLink></li>
           </ul>
           <hr />
           <ul class="nav-list">
-            <li><NuxtLink :to="'/staff'">運スタとは</NuxtLink></li>
-            <li><NuxtLink :to="'/real'">運スタの全体像をつかもう</NuxtLink></li>
+            <li><NuxtLink :to="'/uneistafftoha'">運スタとは</NuxtLink></li>
+            <li>
+              <NuxtLink :to="'/zentaizowotukamou'"
+                >運スタの全体像をつかもう</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink :to="'/staffintervew'">スタッフインタビュー</NuxtLink>
+            </li>
           </ul>
           <hr />
           <ul class="nav-list">
-            <li><NuxtLink :to="'/entrance'">入会方法</NuxtLink></li>
-            <li><NuxtLink :to="'/events'">新歓イベント情報</NuxtLink></li>
-            <li><NuxtLink :to="'/question'">よくある質問</NuxtLink></li>
-            <li><NuxtLink :to="'/contact'">お問い合わせ</NuxtLink></li>
+            <li><NuxtLink :to="'/nyuukaihouhou'">入会方法</NuxtLink></li>
+            <li><NuxtLink :to="'/eventichiran'">新歓イベント情報</NuxtLink></li>
+            <li><NuxtLink :to="'/yokuarushitumon'">よくある質問</NuxtLink></li>
+            <li><NuxtLink :to="'/otoiawase'">お問い合わせ</NuxtLink></li>
           </ul>
         </div>
       </div>
