@@ -27,19 +27,46 @@
         </div>
       </div>
       <div class="footer-sns-title">
-        <Paragraph
-          :align="'center'"
-          class="title"
-        >
-          公式SNSリンク
-        </Paragraph>
+        <Paragraph :align="'center'" class="title"> 公式SNSリンク </Paragraph>
       </div>
       <div class="sns-links-container">
-          <!-- TODO -->
-          <a href="https://twitter.com/wasedasai_new" target="_blank" rel="noopener noreferrer"><img class="sns-link" src="~assets/images/twitter.png" alt="twitterのリンク"></a>
-          <a href="https://instagram.com/wasedasai_new/" target="_blank" rel="noopener noreferrer"><img class="sns-link" src="~assets/images/instagram.png" alt="instagramのリンク"></a>
-          <a href="https://youtube.com/channel/UCwyXxBLHp1ku0arseLoIaGA" target="_blank" rel="noopener noreferrer"><img class="sns-link" src="~assets/images/youtube.png" alt="youtubeのリンク"></a>
-          <a href="https://lin.ee/WgDcNIW" target="_blank" rel="noopener noreferrer"><img class="sns-link" src="~assets/images/line.png" alt="noteのリンク"></a>
+        <!-- TODO -->
+        <a
+          href="https://twitter.com/wasedasai_new"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="sns-link"
+            src="~assets/images/twitter.png"
+            alt="twitterのリンク"
+        /></a>
+        <a
+          href="https://instagram.com/wasedasai_new/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="sns-link"
+            src="~assets/images/instagram.png"
+            alt="instagramのリンク"
+        /></a>
+        <a
+          href="https://youtube.com/channel/UCwyXxBLHp1ku0arseLoIaGA"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="sns-link"
+            src="~assets/images/youtube.png"
+            alt="youtubeのリンク"
+        /></a>
+        <a
+          href="https://lin.ee/WgDcNIW"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="sns-link"
+            src="~assets/images/line.png"
+            alt="noteのリンク"
+        /></a>
       </div>
     </div>
   </footer>
@@ -55,7 +82,7 @@
 }
 
 .footer-left {
- display: inline-block;
+  display: inline-block;
   height: 100%;
   width: 200%;
 }
@@ -84,11 +111,11 @@
   width: 70%;
 }
 
-.footer-navi-list{
+.footer-navi-list {
   display: flex;
   width: 100%;
   height: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   gap: 5px;
 }
 
@@ -96,7 +123,7 @@
   display: flex;
   width: 70%;
   height: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   color: #804b40;
   text-decoration: none;
   font-size: 16px;
@@ -114,10 +141,10 @@
 }
 
 .footer-sns-title {
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 24px;
-color: #804b40
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #804b40;
 }
 </style>
