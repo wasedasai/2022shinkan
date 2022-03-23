@@ -19,6 +19,7 @@
  width: 100%;
  height: auto;
  position: relative;
+ margin-top: 80px;
 }
 
 .content {
