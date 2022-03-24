@@ -1,0 +1,135 @@
+<template>
+  <main>
+    <div class="foto-wrapper">
+      <img src="~assets/images/kyokusyokai/somu_top.JPG" class="foto" />
+    </div>
+    <div class="title_all">
+      <h2 class="title1">局紹介</h2>
+      <h2 class="title2">総務局</h2>
+    </div>
+    <div class="contents">
+      <div class="description">
+        <div>
+          「『はっぴの背中』を想う場所」<br />
+          総務局は、人的資源管理チーム・物的資源管理チーム・情報資源管理チームという3つのチームで構成されています。各チームにはそれぞれ10人前後が所属しており、チームに所属しない3年目を含めて例年30人程度で活動しています。このように人数規模が大きくないため、局単位で活動やレクをすることが多く、他の局に比べてもチームの垣根を超えた関係が強い温和な雰囲気を持っています。運営スタッフ内部の資源を取り扱う局であることから、局やチームの活動を通じて他部署のスタッフと幅広く交流できることが、総務局全体に共通する魅力です。総務局では活動を通じて運営スタッフ各部署の取り組みやそこに懸ける想いを知り、そして支えることができます。
+        </div>
+        <ul class="teams">
+          <li>
+            <AtomsPartTitle>情報資源管理チーム</AtomsPartTitle><br />
+            「情報？ 資源？ 管理？
+            よくわからないし難しいし楽しくなさそう」、そう思ったら大間違い！私たち情報資源管理チームが行うのは、運営スタッフが使うアカウントを管理したり、内部向けの有用な資料を載せたサイトを作ったり、運営スタッフの㊙を載せた情報誌を作ったりして、1番近くで運営スタッフに寄り添うこと！全部の局の活動を知ることができて、少人数アットホームな雰囲気の楽しいチームです！
+          </li>
+          <li>
+            <AtomsPartTitle>人的資源管理チーム</AtomsPartTitle><br />
+            このチームは主に2つの役割を担っています。1つ目は早稲田祭期間のシフト作成です。早稲田祭当日における運スタ一人ひとりの動きを決めるシフトを作成します。約600人分のシフト作りはとても大変ですが、その分やりがいにあふれた仕事です！
+            2つ目は、運スタ全体の福利厚生です。運スタにはレクや合宿をはじめとしたたくさんの全体福利厚生があります！何百人も参加するような全体福利厚生の企画・運営はやることがとても多いですが、楽しんでいる仲間を見れることがやりがいです。
+          </li>
+          <li>
+            <AtomsPartTitle>物的資源管理チーム</AtomsPartTitle><br />
+            運営スタッフが使用する膨大な備品や部室、倉庫の管理・運用を担当しているチームです。企画や広報などに使用する備品の貸出や購入、倉庫の整理を行います。運営スタッフ一人ひとりの希望を聞いたり相談に乗ったり、早稲田祭に関わる活動を環境整備を通じて全力で支えています！
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</template>
+
+<style scoped>
+@media screen and (min-width: 1024px) {
+  .foto {
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 40%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .title_all {
+    margin-top: -17%;
+    padding-left: 10%;
+  }
+  .title1 {
+    font-size: 2.8rem;
+    color: #4c2219;
+  }
+  .title2 {
+    font-size: 3rem;
+    color: #4c2219;
+    border-bottom-width: thick;
+    border-bottom-style: ridge;
+  }
+  .contents {
+    color: #4c2219;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 1200px;
+  }
+  .description {
+    flex-direction: column;
+    margin: 10%;
+  }
+  .teams li {
+    margin-top: 50px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .foto {
+    display: none;
+  }
+  .foto-wrapper {
+    padding-top: 80px;
+    background-color: #fff;
+    width: 100%;
+  }
+  .title_all {
+    background-image: url('~assets/images/kyokusyokai/somu_top.JPG');
+    background-size: cover;
+    background-position-y: 55%;
+    padding-top: 28%;
+    position: relative;
+    color: #fff;
+  }
+  .title_all::before {
+    width: 100%;
+    height: 160px;
+    z-index: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .title1 {
+    position: relative;
+    font-size: 1.3rem;
+    color: #4c2219;
+  }
+  .title2 {
+    position: absolute;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    color: #4c2219;
+    border-bottom-width: thick;
+    border-bottom-style: dotted;
+    border-color: #4c2219;
+  }
+  .contents {
+    color: #4c2219;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 10%;
+  }
+  .description {
+    flex-direction: column;
+    margin: 10%;
+  }
+  .teams li {
+    margin-top: 50px;
+    text-decoration: none;
+  }
+}
+</style>
