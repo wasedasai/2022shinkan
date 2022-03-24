@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/eventichiran", {data:[{}],fetch:{},mutations:void 0});

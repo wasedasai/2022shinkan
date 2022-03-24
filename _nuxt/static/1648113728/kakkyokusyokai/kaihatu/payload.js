@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/kakkyokusyokai/kaihatu", {data:[{}],fetch:{},mutations:void 0});
