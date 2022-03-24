@@ -114,7 +114,7 @@ main {
     display: none;
   }
   .title_all {
-    background-image: url('~assets/images/kyokusyokai/kaijyoseibi_top.jpg');
+    background-image: url('~assets/images/kyokusyokai/pac_top.jpeg');
     background-size: cover;
     height: 180px;
     display: flex;

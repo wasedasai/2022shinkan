@@ -117,7 +117,7 @@ main {
     display: none;
   }
   .title_all {
-    background-image: url('~assets/images/kyokusyokai/kaijyoseibi_top.jpg');
+    background-image: url('~assets/images/kyokusyokai/kikaku_top.jpg');
     background-size: cover;
     height: 180px;
     display: flex;

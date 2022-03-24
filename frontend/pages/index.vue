@@ -49,7 +49,6 @@
                 <img src="~assets/images/demo_images/sample2.jpg" alt="画像" />
               </div>
               <div class="para">
-                <!-- TODO: 文字 -->
                 <p>年に1度の早大生たちの大舞台、早稲田祭。</p>
                 <p>
                   祭の開催と成功のため、1年をかけてアツく楽しく準備を進めているのが、私たち「早稲田祭運営スタッフ」です！
@@ -79,39 +78,39 @@
           <h1>新歓イベント</h1>
           <div class="box">
             <div>
-              <nuxt-link to=""
+              <nuxt-link to="/eventichiran#setsumeikai"
                 ><img
                   src="~assets/images/events_link/setsumeikai.png"
                   alt="画像"
               /></nuxt-link>
             </div>
             <div>
-              <nuxt-link to=""
+              <nuxt-link to="/eventichiran#shabereku"
                 ><img src="~assets/images/events_link/shabereku.png" alt="画像"
               /></nuxt-link>
             </div>
             <div>
-              <nuxt-link to=""
+              <nuxt-link to="/eventichiran#kyokushindan"
                 ><img src="~assets/images/events_link/shindan.png" alt="画像"
               /></nuxt-link>
             </div>
             <div>
-              <nuxt-link to=""
+              <nuxt-link to="/eventichiran#tour"
                 ><img src="~assets/images/events_link/tour.png" alt="画像"
               /></nuxt-link>
             </div>
             <div>
-              <nuxt-link to=""
+              <nuxt-link to="/eventichiran#welcome"
                 ><img src="~assets/images/events_link/welcome.png" alt="画像"
               /></nuxt-link>
             </div>
             <div>
-              <nuxt-link to=""
+              <nuxt-link to="/eventichiran#zeronenn"
                 ><img src="~assets/images/events_link/zeronenn.png" alt="画像"
               /></nuxt-link>
             </div>
             <div>
-              <nuxt-link to=""
+              <nuxt-link to="/eventichiran#hokenshitsu"
                 ><img
                   src="~assets/images/events_link/hokenshitsu.png"
                   alt="画像"

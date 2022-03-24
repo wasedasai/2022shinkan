@@ -6,6 +6,7 @@
     <section>
       <div class="section-inner">
         <div class="item">
+          <div id="setsumeikai" class="event-linker" />
           <h1>説明会</h1>
           <div class="content">
             <div class="image_wrapper">
@@ -26,6 +27,7 @@
         </div>
 
         <div class="item">
+          <div id="shabereku" class="event-linker" />
           <h1>しゃべレク007</h1>
           <div class="content">
             <div class="image_wrapper">
@@ -46,6 +48,7 @@
         </div>
 
         <div class="item">
+          <div id="kyokushindan" class="event-linker" />
           <h1>運スタ相性診断ー君にぴったりな局は！？ー</h1>
           <div class="content">
             <div class="image_wrapper">
@@ -66,6 +69,7 @@
         </div>
 
         <div class="item">
+          <div id="tour" class="event-linker" />
           <h1>早稲田祭ツアー</h1>
           <div class="content">
             <div class="image_wrapper">
@@ -94,6 +98,7 @@
         </div>
 
         <div class="item">
+          <div id="welcome" class="event-linker" />
           <h1>ウェルカムステージ</h1>
           <div class="content">
             <div class="image_wrapper">
@@ -115,6 +120,7 @@
         </div>
 
         <div class="item">
+          <div id="zeronenn" class="event-linker" />
           <h1>運スタ0年生教室</h1>
           <div class="content">
             <div class="image_wrapper">
@@ -135,6 +141,7 @@
         </div>
 
         <div class="item">
+          <div id="hokenshitsu" class="event-linker" />
           <h1>運スタ保健室</h1>
           <div class="content">
             <div class="image_wrapper">
@@ -171,6 +178,12 @@
 
 .item {
   padding-bottom: 3rem;
+  position: relative;
+}
+
+.event-linker {
+  position: absolute;
+  top: -100px;
 }
 
 .item h1 {
