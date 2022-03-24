@@ -56,23 +56,25 @@ export default {
   position: relative;
   padding: 0;
   display: flex;
+  font-size: 16px;
 }
 
 .button {
   background: #000;
-  width: 52px;
-  height: 52px;
+  width: 40px;
+  height: 40px;
   background: white;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   filter: drop-shadow(2px 2px 1px rgb(0 0 0 / 0.4));
 }
 

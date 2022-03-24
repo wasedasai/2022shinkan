@@ -24,6 +24,9 @@
               >
             </li>
             <li>
+              <NuxtLink :to="'/kakkyokusyokai'">各局紹介</NuxtLink>
+            </li>
+            <li>
               <NuxtLink :to="'/staffintervew'">スタッフインタビュー</NuxtLink>
             </li>
           </ul>
