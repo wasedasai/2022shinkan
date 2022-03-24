@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="foto-wrapper">
-      <img src="~assets/images/kyokusyokai/santai_top.JPG" class="foto" />
+      <img src="~assets/images/kyokusyokai/santai_top.jpg" class="foto" />
     </div>
     <div class="title_all">
       <h2 class="title1">局紹介</h2>
