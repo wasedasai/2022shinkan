@@ -5,7 +5,9 @@
     </div>
 
     <section>
-      <div class="section-inner">Coming Soon</div>
+      <div class="section-inner">
+        <img src="~assets/images/zentaizo_page/soshikizu.jpg" alt="組織図">
+      </div>
     </section>
   </main>
 </template>
