@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="base">
+    <div class="foto-wrapper">
       <img src="~assets/images/kyokusyokai/kaijyoseibi_top.jpg" class="foto">
     </div>
     <div class="title_all">
@@ -84,26 +84,60 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .foto{
-    width: 300px;
-    height: 320px;
-    border-radius: 40%;
-    margin-left: 30%;
-    padding-top:5%;
-    overflow: hidden;
-    object-fit: cover;
+  .foto{
+    display: none;
   }
-  .title_all{margin-top: -26%;
+  .foto-wrapper{
+    padding-top: 80px;
+    background-color: #fff;
+    width: 100%;
+  }
+  .title_all{
+    background-image: url('~assets/images/kyokusyokai/kaijyoseibi_top.jpg');
+    background-size: cover;
+    padding-top: 28%;
+    position: relative;
+    color:#fff;
+  }
+  .title_all::before{
+    width: 100%;
+    height: 155px;
+    z-index: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
   }
   .title1{
-    font-size: 1.2rem;
+    position: relative;
+    font-size: 1.3rem;
     color: #4c2219;
   }
   .title2{
+    position: absolute;
+    padding-left: 5px;
     font-size: 1.5rem;
     color: #4c2219;
     border-bottom-width: thick;
-    border-bottom-style: ridge;
+    border-bottom-style: dotted;
+    border-color: #4c2219;
   }
+  .contents{
+    color: #4c2219;
+    display: flex;
+    justify-content:space-around;
+    align-content: space-around;
+    margin-top: 10%;
+    }
+  .description{
+    flex-direction: column;
+    margin: 10%;
+    }
+    .teams li{
+      margin-top: 50px;
+      text-decoration: none;
+      }
 }
 </style>
