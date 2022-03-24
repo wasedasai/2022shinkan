@@ -19,7 +19,7 @@ export default {
         rel: 'stylesheet',
       },
     ],
-    script: [{ src: '/js/adobe-font.js' }],
+    script: [{ src: 'js/adobe-font.js' }],
     base: {
       href: 'router.base',
     },
