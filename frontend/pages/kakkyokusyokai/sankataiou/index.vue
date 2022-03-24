@@ -27,16 +27,31 @@
         </ul>
       </div>
     </div>
+    <div class="kyokusyoukai">
+      <h2>各局紹介</h2>
+      <OrganismsKyokuLinkList />
+    </div>
   </main>
 </template>
 
 <style scoped>
+.kyokusyoukai {
+  padding: 0 0 40px;
+}
+
+.kyokusyoukai h2 {
+  text-align: center;
+}
+
+main {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1024px) {
   .foto {
     width: 80%;
     border-radius: 50%;
     margin-left: 40%;
-    overflow: hidden;
     object-fit: cover;
   }
   .title_all {
@@ -44,25 +59,24 @@
     padding-left: 10%;
   }
   .title1 {
-    font-size: 2.8rem;
+    font-size: 40px;
+    padding: 0;
     color: #4c2219;
   }
   .title2 {
-    font-size: 3rem;
+    font-size: 48px;
+    padding: 0;
     color: #4c2219;
     border-bottom-width: thick;
     border-bottom-style: ridge;
   }
   .contents {
     color: #4c2219;
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    padding: 10% 10% 40px;
     width: 1200px;
   }
   .description {
     flex-direction: column;
-    margin: 10%;
   }
   .teams li {
     margin-top: 50px;
@@ -71,60 +85,54 @@
 }
 
 @media screen and (max-width: 1023px) {
+  main {
+    padding-top: 80px;
+  }
   .foto {
     display: none;
   }
-  .foto-wrapper {
-    padding-top: 80px;
-    background-color: #fff;
-    width: 100%;
-  }
   .title_all {
-    background-image: url('~assets/images/kyokusyokai/santai_top.JPG');
+    background-image: url('~assets/images/kyokusyokai/kaijyoseibi_top.jpg');
     background-size: cover;
-    background-position-y: 55%;
-    padding-top: 28%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    color: #fff;
   }
   .title_all::before {
-    width: 100%;
-    height: 160px;
-    z-index: 0;
     content: '';
-    display: block;
     position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 20;
   }
   .title1 {
     position: relative;
-    font-size: 1.3rem;
     color: #4c2219;
+    z-index: 30;
+    padding: 0;
   }
   .title2 {
-    position: absolute;
-    padding-left: 5px;
-    font-size: 1.5rem;
+    position: relative;
     color: #4c2219;
-    border-bottom-width: thick;
-    border-bottom-style: dotted;
-    border-color: #4c2219;
+    border-bottom-width: none;
+    z-index: 30;
+    padding: 0;
   }
   .contents {
     color: #4c2219;
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-    margin-top: 10%;
+    padding: 40px 1rem;
   }
   .description {
     flex-direction: column;
-    margin: 10%;
   }
   .teams li {
-    margin-top: 50px;
+    margin-top: 40px;
     text-decoration: none;
   }
 }

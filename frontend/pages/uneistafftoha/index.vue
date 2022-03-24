@@ -48,22 +48,7 @@
             >運スタの全体像をつかもう</AtomsButton
           >
         </div>
-        <div class="box">
-          <OrganismsKyokuLink :bg-type="'bgType1'"
-            >会場整備局</OrganismsKyokuLink
-          >
-          <OrganismsKyokuLink :bg-type="'bgType2'">開発局</OrganismsKyokuLink>
-          <OrganismsKyokuLink :bg-type="'bgType3'">企画局</OrganismsKyokuLink>
-          <OrganismsKyokuLink :bg-type="'bgType4'"
-            >広報制作局</OrganismsKyokuLink
-          >
-          <OrganismsKyokuLink :bg-type="'bgType5'">財務局</OrganismsKyokuLink>
-          <OrganismsKyokuLink :bg-type="'bgType6'"
-            >参加対応局</OrganismsKyokuLink
-          >
-          <OrganismsKyokuLink :bg-type="'bgType7'">渉外局</OrganismsKyokuLink>
-          <OrganismsKyokuLink :bg-type="'bgType8'">総務局</OrganismsKyokuLink>
-        </div>
+        <OrganismsKyokuLinkList />
       </div>
     </section>
 
