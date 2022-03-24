@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="base">
+    <div class="foto-wrapper">
       <img src="~assets/images/kyokusyokai/kaihatu_top.jpeg" class="foto">
     </div>
     <div class="title_all">
@@ -14,28 +14,23 @@
     <div class="contents">
       <div class="description">
         <div>
-          「ここが祭の最前線」<br/>
-           会場整備局は「ここが祭の最前線」というキャッチコピーが表すように、早稲田祭当日の会場で活躍することができる局です！<br/>
-           局の特徴の1つとして、チームによって活動内容が大きく変わるということがあります。来場者案内・参加団体対応・制作活動・環境整備・警備活動・備品管理......多岐にわたって活動を行っています。<br/>
-           また、各チームの人数は20人前後で構成されているため、たくさんの人と関わりを持つことができます。自分のチーム以外と活動することも多く、運営スタッフ内での交流を深められることも特徴です！<br/>
+          「創るなら開発局、変えるなら開発局」<br/>
+           早稲田祭の現状を分析し、斬新な発想や、今までにない企画や取り組みを通して、早稲田祭をさらに発展させていきます。早稲田祭においてできることを増やし、局が掲げる理想の早稲田祭の実現に向け活動しています。<br/>
+           開発局の活動は自由度が高く、1人あたりの裁量が大きいのが特徴です。その分たくさん考え、早稲田祭について学ばなくてはなりません。しかし、そうして自分が考え抜いて立案した企画や取り組みが華開いたときの達成感や感動は開発局でしか味わえないものです。今年度は早稲田祭の時間や空間のさらなる活用、早稲田祭が抱える課題の解決を通してさまざまな新領域にアプローチします。私たち開発局は本気で考え、本気で取り組み、何より本気で楽しんで活動しています。「本気になりたい」あなたを待っています！
            局員の雰囲気も、チーム同様に多種多様！局員の人数は運営スタッフの中で3番目に多い局ですが、優しく話しやすい人ばかりです！
         </div>
         <ul class="teams">
           <li>
-            <AtomsPartTitle>会場案内チーム</AtomsPartTitle><br/>
-            主にインフォメーションの運営、設備や場所を伝えるための案内物の制作・設置、入退構管理を行います。来場者や参加団体・参加者が快適に早稲田祭を楽しめるよう、情報を提供するのが仕事です。専用のソフトを使った案内物の作成、インフォメーションの色塗り作業など、夏休みからほぼ毎日楽しく活動できます！
+            <AtomsPartTitle>主体開発チーム</AtomsPartTitle><br/>
+          「祭にさらなる彩りを。」をテーマに、多様な「ひと」を早稲田祭にお招きする活動を行っています。チームの最大の魅力は、サークル、留学生、体育会、周辺地域の方々、OBOG、YouTuberなど、早稲田が誇る多様な「ひと」たちと関わることです。「ひと」にフォーカスした企画を0から立案して、当日企画などを運営しています。新たな「ひと」を早稲田祭に招くことで、早稲田の誇る「多様性」を表現していきます！
           </li>
           <li>
-            <AtomsPartTitle>環境チーム</AtomsPartTitle><br/>
-            環境チームは、早稲田祭のエコに関わる活動を主導しています。早稲田祭の特設ごみ箱である「エコステーション」の制作・運営や飲食屋台で用いるエコ容器の仲介販売、毎年大量にでるごみの処理など、環境チームの活動は多岐にわたります。例年多くの人が来場する早稲田祭の「きれい」を守るために欠かせないチームです！
+            <AtomsPartTitle>時間・空間開発チーム</AtomsPartTitle><br/>
+          その名の通り、早稲田祭における未開拓の時間・空間にスポットを当て、それらを活用した企画を立案・実行するチームです。事前に行うフィールドワークなどをもとに0から企画を構想し、来場者をはじめとする、早稲田祭に関わるすべての主体が感動できる企画の実現を目標として活動しています。未開拓の時間・空間を魅力あるものにするって、めちゃめちゃ素敵じゃないですか？私たちと一緒により良い祭を創りましょう！
           </li>
           <li>
-            <AtomsPartTitle>動線管理チーム</AtomsPartTitle><br/>
-            早稲田祭に関わる全ての人の動きやキャンパスに入る車両の動きを管理するチームです。早稲田祭当日に来場者の誘導・安全の管理を行う警備班、キャンパスを祭仕様に整えて早稲田祭の土台をつくる整備班、キャンパスへ入構する全ての車両を管理する車両班の3班に分かれています。活動するときは互いに尊敬しあい、楽しむときは全力で楽しむ、メリハリのあるチームです！
-          </li>
-          <li>
-            <AtomsPartTitle>備品電力チーム</AtomsPartTitle><br/>
-            早稲田祭全体の電力や、動線をつくるためのコーンなどの備品管理を行っており、早稲田祭のインフラにおいて重要な役割を担うチームです。地味な仕事かもしれませんが、早稲田祭の運営には必要不可欠であるためやりがいがあります。たくさんの人と関わることができるので交友関係も広がりやすいです！備品電力チームでみなさんのことをお待ちしています！！
+            <AtomsPartTitle>実践チーム</AtomsPartTitle><br/>
+          早稲田大学のアカデミックな一面を早稲田祭で最大限に「魅せる」ための活動を行っています！早稲田大学に所属する教授や「学術」に関係するサークルを早稲田祭にお招きして、講演や子ども向けの実験教室を開催したり、早稲田祭における混雑緩和を目的とした企画など、早稲田大学で行われている研究を実際に活用する取り組みを行ったりと、幅広い活動をしています！「学術」と聞くと難しく感じるかもしれませんが、0から企画を構想し、早稲田のアカデミックな一面をたくさんの来場者に「魅せる」ために活動できるのは、実践チームならでは！実践チームだからできる企画を一緒に創りあげてみませんか？
           </li>
         </ul>
       </div>
@@ -44,29 +39,11 @@
 </template>
 
 <style scoped>
-.contents{
-  color: #4c2219;
-  display: flex;
-  justify-content:space-around;
-  align-content: space-around;
-  width: 1200px;
-}
-
-.description{
-  flex-direction: column;
-  margin: 10%;
-}
-
-.teams li{
-  margin-top: 50px;
-  text-decoration: none;
-}
-
 @media screen and (min-width: 1024px) {
   .foto{
-    width: 85%;
+    width: 80%;
     border-radius: 50%;
-    margin-left: 35%;
+    margin-left: 40%;
     overflow: hidden;
     object-fit: cover;
   }
@@ -84,6 +61,78 @@
     border-bottom-width: thick;
     border-bottom-style: ridge;
   }
+  .contents{
+    color: #4c2219;
+    display: flex;
+    justify-content:space-around;
+    align-content: space-around;
+    width: 1200px;
+    }
+  .description{
+    flex-direction: column;
+    margin: 10%;
+    }
+    .teams li{
+      margin-top: 50px;
+      text-decoration: none;
+      }
+}
+
+@media screen and (max-width: 1023px) {
+  .foto{
+    display: none;
+  }
+  .foto-wrapper{
+    padding-top: 80px;
+    background-color: #fff;
+    width: 100%;
+  }
+  .title_all{
+    background-image: url('~assets/images/kyokusyokai/kaihatu_top.jpeg');
+    background-size: cover;
+    padding-top: 28%;
+    position: relative;
+    color:#fff;
+  }
+  .title_all::before{
+    width: 100%;
+    height: 160px;
+    z-index: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .title1{
+    position: relative;
+    font-size: 1.3rem;
+    color: #4c2219;
+  }
+  .title2{
+    position: absolute;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    color: #4c2219;
+    border-bottom-width: thick;
+    border-bottom-style: dotted;
+    border-color: #4c2219;
+  }
+  .contents{
+    color: #4c2219;
+    display: flex;
+    justify-content:space-around;
+    align-content: space-around;
+    margin-top: 10%;
+    }
+  .description{
+    flex-direction: column;
+    margin: 10%;
+    }
+    .teams li{
+      margin-top: 50px;
+      text-decoration: none;
+      }
 }
 </style>
-
