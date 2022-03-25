@@ -1,3 +1,39 @@
+<script>
+export default {
+  head: {
+    title: '局紹介　広報制作局',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '広報制作局は、早稲田祭を「魅せる」局です。広報制作局の紹介はこちら',
+      },
+      {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          '新歓、局紹介、広報制作局、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'article' },
+      { hid: 'og:title', property: 'og:title', content: '局紹介　広報制作局' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '広報制作局は、早稲田祭を「魅せる」局です。広報制作局の紹介はこちら',
+      },
+      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+    ],
+  },
+}
+</script>
+
 <template>
   <main>
     <div class="foto-wrapper">

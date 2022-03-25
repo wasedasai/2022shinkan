@@ -1,3 +1,37 @@
+<script>
+export default {
+  head: {
+    title: '早稲田祭とは',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: '早稲田祭の歴史、規模、当日の様子が掲載されています',
+      },
+      {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          '新歓、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'article' },
+      { hid: 'og:title', property: 'og:title', content: '早稲田祭とは' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: '早稲田祭の歴史、規模、当日の様子が掲載されています',
+      },
+      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+    ],
+  },
+}
+</script>
+
 <template>
   <main>
     <div class="hero-wrapper">
