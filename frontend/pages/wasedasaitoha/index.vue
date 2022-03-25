@@ -29,7 +29,7 @@
           </div>
           <div class="item">
             <div>2020年</div>
-            <div>初のオフライン開催</div>
+            <div>初のオンライン開催</div>
           </div>
           <div class="item">
             <div>2021年</div>

@@ -165,8 +165,7 @@ hr {
   justify-content: center;
 }
 .etunenlogo {
-  width: 40%;
-  margin: 5% 5% 0 5%;
+  width: 30%;
   object-fit: cover;
 }
 
