@@ -144,6 +144,11 @@ export default {
           <h1>新歓イベント</h1>
           <div class="box">
             <div>
+              <nuxt-link to="/eventichiran#welcome"
+                ><img src="~assets/images/events_link/welcome.png" alt="画像"
+              /></nuxt-link>
+            </div>
+            <div>
               <nuxt-link to="/eventichiran#setsumeikai"
                 ><img
                   src="~assets/images/events_link/setsumeikai.png"
@@ -163,11 +168,6 @@ export default {
             <div>
               <nuxt-link to="/eventichiran#tour"
                 ><img src="~assets/images/events_link/tour.png" alt="画像"
-              /></nuxt-link>
-            </div>
-            <div>
-              <nuxt-link to="/eventichiran#welcome"
-                ><img src="~assets/images/events_link/welcome.png" alt="画像"
               /></nuxt-link>
             </div>
             <div>
