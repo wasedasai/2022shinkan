@@ -85,10 +85,26 @@ export default {
       <div class="section-inner">
         <h1>スタッフインタビュー</h1>
         <div class="staff_links">
-          <OrganismsStaffLink :name="'A.T'" />
-          <OrganismsStaffLink :name="'K.I'" />
-          <OrganismsStaffLink :name="'K.M'" />
-          <OrganismsStaffLink :name="'A.K'" />
+          <OrganismsStaffLink
+            :type="'m'"
+            :name="''"
+            :url="'/staffinterview#m'"
+          />
+          <OrganismsStaffLink
+            :type="'s'"
+            :name="''"
+            :url="'/staffinterview#s'"
+          />
+          <OrganismsStaffLink
+            :type="'n'"
+            :name="''"
+            :url="'/staffinterview#n'"
+          />
+          <OrganismsStaffLink
+            :type="'j'"
+            :name="''"
+            :url="'/staffinterview#j'"
+          />
         </div>
       </div>
     </section>

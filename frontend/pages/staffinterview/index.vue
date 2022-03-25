@@ -27,7 +27,7 @@ export default {
         content:
           '運営スタッフにさまざまな質問をしました！運営スタッフの実態を知ることができます。',
       },
-      { hid: 'og:url', property: 'og:url', content: 'staffintervew' },
+      { hid: 'og:url', property: 'og:url', content: 'staffinterview' },
       {
         hid: 'og:image',
         property: 'og:image',
@@ -46,15 +46,21 @@ export default {
 
     <section>
       <div>
-        <img
-          src="~assets/images/staffinterview/interview1.png"
-          class="image1"
-        />
-        <div class="content1">
-          <h3 class="title1">
-            財務局 企画局付き<br />
-            Mさん
-          </h3>
+        <div id="m" class="event-linker" />
+        <div class="image-wrapper pc_only">
+          <img
+            src="~assets/images/staffinterview/interview1.png"
+            class="image"
+          />
+        </div>
+        <div class="content">
+          <AtomsPartTitle>財務局 企画局付き Mさん</AtomsPartTitle>
+          <div class="image-wrapper sp_only">
+            <img
+              src="~assets/images/staffinterview/interview1.png"
+              class="image"
+            />
+          </div>
           <p>Q1</p>
           <p>
             運営スタッフとしてもうすぐ1年が経ちますね。ぶっちゃけ入ってよかったと思いますか？(笑)
@@ -88,16 +94,23 @@ export default {
           </p>
         </div>
       </div>
+
       <div>
-        <img
-          src="~assets/images/staffinterview/interview2.png"
-          class="image2"
-        />
-        <div class="content2">
-          <h3 class="title2">
-            開発局 時間・空間開発チーム<br />
-            Sくん
-          </h3>
+        <div id="s" class="event-linker" />
+        <div class="image-wrapper pc_only">
+          <img
+            src="~assets/images/staffinterview/interview2.png"
+            class="image"
+          />
+        </div>
+        <div class="content">
+          <AtomsPartTitle>開発局 時間・空間開発チーム Sくん</AtomsPartTitle>
+          <div class="image-wrapper sp_only">
+            <img
+              src="~assets/images/staffinterview/interview2.png"
+              class="image"
+            />
+          </div>
           <p>Q1</p>
           <p>Sくんは局やチームではどんな活動をしているんですか？</p>
           <p>A1</p>
@@ -125,13 +138,23 @@ export default {
           </p>
         </div>
       </div>
+
       <div>
-        <img src="~assets/images/staffinterview/inteview3.png" class="image3" />
-        <div class="content3">
-          <h3 class="title3">
-            広報制作局 デザインチーム <br />
-            Nさん
-          </h3>
+        <div id="n" class="event-linker" />
+        <div class="image-wrapper pc_only">
+          <img
+            src="~assets/images/staffinterview/inteview3.png"
+            class="image"
+          />
+        </div>
+        <div class="content">
+          <AtomsPartTitle> 広報制作局 デザインチーム Nさん </AtomsPartTitle>
+          <div class="image-wrapper sp_only">
+            <img
+              src="~assets/images/staffinterview/inteview3.png"
+              class="image"
+            />
+          </div>
           <p>Q1</p>
           <p>
             Nさんは運スタと他のサークルを掛け持ちしているらしいですね！「兼サー」ってどうですか？結構大変ですか？
@@ -166,51 +189,58 @@ export default {
           <p>誰もが運スタのどこかに、自分の居場所を見つけられるはずです！</p>
         </div>
       </div>
+
       <div>
-        <img
-          src="~assets/images/staffinterview/interview4.png"
-          class="image4"
-        />
-      </div>
-      <div class="content4">
-        <h3 class="title4">
-          第2副代表<br />
-          Jくん
-        </h3>
-        <p>Q1</p>
-        <p>
-          今回インタビューした中で唯一の新3年生、運営スタッフをまる2年も経験されている大ベテランです(笑)
-          まずは、この2年間運営スタッフとして活動してきた感想をお願いします。
-        </p>
-        <p>A1</p>
-        <p>
-          この2年間で感じたのは、運営スタッフの早稲田祭に対する強い想いかな。約600人がたった2日間の祭のために1年間準備するサークルは他にはないし、みんなが早稲田祭という同じ目標に向かっているからこそ生まれる団結力をすごく感じます。だからこそ、たくさんの同期や先輩、後輩と仲良くなれて、活動以外でも常に運営スタッフ同士で大学生活を過ごす人も多いのかなって思います。
-        </p>
-        <p>Q2</p>
-        <p>
-          3年目も運スタを続けるかどうかは人それぞれだと思いますが、続けようと思ったのはなぜですか？
-        </p>
-        <p>A2</p>
-        <p>
-          運スタに入ったときはコロナ禍の真っ只中でした。そのため、2020年がオンライン開催、2021年はハイブリッド開催という新しい形態で、早稲田祭が行われました。だからこそ、新たな試みもできて学びの多い2年間でした！でもやっぱり自分自身3年目としてやりたいことがまだ残っていたので、最後までやり切りたくって。運スタを続けることに決めました。
-        </p>
-        <p>Q3</p>
-        <p>
-          早稲田祭は伝統ある祭ですが、これから早稲田祭はどうなっていくのでしょうか。中川さんの早稲田祭に対する想いをめいいっぱいお願いします！
-        </p>
-        <p>A3</p>
-        <p>
-          もちろん進化していくと思います！これまで早稲田祭ではさまざまな取り組みや企画が行われてきて、来場者が約20万人を超える日本最大級の学園祭になりました。ですが、早稲田祭はまだまだ発展途上です。この早稲田のまちの盛り上がりを、もっともっと見せていかなくてはいけません。
-        </p>
-        <p>
-          早稲田には個性豊かな人やサークルがたくさんあります。周辺地域や校友の方々も一体となって祭を盛り上げてくれます。そんな早稲田文化が結集するのが早稲田祭なんです！
-        </p>
-        <p>
-          運営スタッフは常により良い早稲田祭をつくりあげていきたいという想いを胸に活動しています。今年の運営スタッフのみんなも、これまでの早稲田祭を超える早稲田祭2022を目指して活動中です。
-        </p>
-        <p>
-          新しく運スタに入ってくるみんなと一緒に、史上最高の早稲田祭をつくっていくのが今から本当に楽しみです！
-        </p>
+        <div id="j" class="event-linker" />
+        <div class="image-wrapper pc_only">
+          <img
+            src="~assets/images/staffinterview/interview4.png"
+            class="image"
+          />
+        </div>
+        <div class="content">
+          <AtomsPartTitle> 第2副代表 Jくん </AtomsPartTitle>
+          <div class="image-wrapper sp_only">
+            <img
+              src="~assets/images/staffinterview/interview4.png"
+              class="image"
+            />
+          </div>
+          <p>Q1</p>
+          <p>
+            今回インタビューした中で唯一の新3年生、運営スタッフをまる2年も経験されている大ベテランです(笑)
+            まずは、この2年間運営スタッフとして活動してきた感想をお願いします。
+          </p>
+          <p>A1</p>
+          <p>
+            この2年間で感じたのは、運営スタッフの早稲田祭に対する強い想いかな。約600人がたった2日間の祭のために1年間準備するサークルは他にはないし、みんなが早稲田祭という同じ目標に向かっているからこそ生まれる団結力をすごく感じます。だからこそ、たくさんの同期や先輩、後輩と仲良くなれて、活動以外でも常に運営スタッフ同士で大学生活を過ごす人も多いのかなって思います。
+          </p>
+          <p>Q2</p>
+          <p>
+            3年目も運スタを続けるかどうかは人それぞれだと思いますが、続けようと思ったのはなぜですか？
+          </p>
+          <p>A2</p>
+          <p>
+            運スタに入ったときはコロナ禍の真っ只中でした。そのため、2020年がオンライン開催、2021年はハイブリッド開催という新しい形態で、早稲田祭が行われました。だからこそ、新たな試みもできて学びの多い2年間でした！でもやっぱり自分自身3年目としてやりたいことがまだ残っていたので、最後までやり切りたくって。運スタを続けることに決めました。
+          </p>
+          <p>Q3</p>
+          <p>
+            早稲田祭は伝統ある祭ですが、これから早稲田祭はどうなっていくのでしょうか。中川さんの早稲田祭に対する想いをめいいっぱいお願いします！
+          </p>
+          <p>A3</p>
+          <p>
+            もちろん進化していくと思います！これまで早稲田祭ではさまざまな取り組みや企画が行われてきて、来場者が約20万人を超える日本最大級の学園祭になりました。ですが、早稲田祭はまだまだ発展途上です。この早稲田のまちの盛り上がりを、もっともっと見せていかなくてはいけません。
+          </p>
+          <p>
+            早稲田には個性豊かな人やサークルがたくさんあります。周辺地域や校友の方々も一体となって祭を盛り上げてくれます。そんな早稲田文化が結集するのが早稲田祭なんです！
+          </p>
+          <p>
+            運営スタッフは常により良い早稲田祭をつくりあげていきたいという想いを胸に活動しています。今年の運営スタッフのみんなも、これまでの早稲田祭を超える早稲田祭2022を目指して活動中です。
+          </p>
+          <p>
+            新しく運スタに入ってくるみんなと一緒に、史上最高の早稲田祭をつくっていくのが今から本当に楽しみです！
+          </p>
+        </div>
       </div>
     </section>
   </main>
@@ -222,116 +252,41 @@ export default {
   background-color: #dde6cb;
 }
 
-.title1 {
+section {
+  padding: 60px 1rem;
+}
+
+section > div {
+  max-width: 1200px;
+  margin: auto;
   position: relative;
 }
 
-.title1::after {
-  content: '';
-  display: block;
-  width: 150px;
-  height: 3px;
-  background-color: #4c2219;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+section > div + div {
+  padding-top: 4rem;
 }
 
-.image1 {
+.event-linker {
+  position: absolute;
+  top: -100px;
+}
+
+.image-wrapper {
+  padding: 0 0 1rem 1rem;
   width: 50%;
   float: right;
+}
+
+.image {
   object-fit: cover;
+  border-radius: 12px;
 }
 
-.content1 {
-  color: #4c2219;
-  max-width: 100%;
-  margin-left: 30px;
-  margin-top: 10%;
-}
-
-.title2 {
-  position: relative;
-}
-
-.title2::after {
-  content: '';
-  display: block;
-  width: 250px;
-  height: 3px;
-  background-color: #4c2219;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-}
-
-.image2 {
-  width: 50%;
-  float: left;
-  margin-right: 10px;
-  object-fit: cover;
-}
-
-.content2 {
-  color: #4c2219;
-  max-width: 100%;
-  margin-top: 5%;
-}
-
-.title3 {
-  position: relative;
-}
-
-.title3::after {
-  content: '';
-  display: block;
-  width: 15%;
-  height: 3px;
-  background-color: #4c2219;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.image3 {
-  width: 50%;
-  float: right;
-  object-fit: cover;
-}
-
-.content3 {
-  color: #4c2219;
-  max-width: 100%;
-  margin-left: 30px;
-  margin-top: 10%;
-}
-
-.title4 {
-  position: relative;
-}
-
-.title4::after {
-  content: '';
-  display: block;
-  width: 100px;
-  height: 3px;
-  background-color: #4c2219;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-}
-
-.image4 {
-  width: 50%;
-  float: left;
-  margin-top: 5%;
-  margin-right: 10px;
-  object-fit: cover;
-}
-
-.content4 {
-  color: #4c2219;
-  max-width: 100%;
-  margin-top: 5%;
+@media screen and (max-width: 720px) {
+  .image-wrapper {
+    padding: 8px 0;
+    width: 100%;
+    float: none;
+  }
 }
 </style>

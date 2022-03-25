@@ -2,6 +2,10 @@
 export default {
   props: {
     url: { type: String, default: '' },
+    type: {
+      type: String,
+      default: '',
+    },
     name: {
       type: String,
       default: '',
@@ -12,11 +16,7 @@ export default {
 
 <template>
   <nuxt-link :to="url" class="link">
-    <img
-      src="~assets/images/demo_images/sample1.jpg"
-      alt="staffinterviewの画像"
-      class="link-image"
-    />
+    <img class="link-image" :class="type" />
   </nuxt-link>
 </template>
 
@@ -30,14 +30,30 @@ export default {
 }
 
 .link-image {
-  max-width: 100%;
+  width: 100%;
+  height: 120px;
   border-radius: 12px;
-  filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .link-image:hover {
   filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
+}
+
+.s {
+  background-image: url('~assets/images/staff_link/staff_s.png');
+}
+.m {
+  background-image: url('~assets/images/staff_link/staff_m.png');
+}
+.n {
+  background-image: url('~assets/images/staff_link/staff_n.png');
+}
+.j {
+  background-image: url('~assets/images/staff_link/staff_j.png');
 }
 
 .name {
