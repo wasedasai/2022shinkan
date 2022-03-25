@@ -35,7 +35,7 @@ export default {
         hid: 'og:image',
         name: 'og:image',
         content:
-          'https://wasedasai.github.io/2022shinkan/images/logo_with_catch.png',
+          'https://wasedasai.github.io/2022shinkan/images/logo_with_catch_green.png',
       },
       {
         hid: 'og:description',
@@ -67,7 +67,7 @@ export default {
         hid: 'twitter:image',
         property: 'twitter:image',
         content:
-          'https://wasedasai.github.io/2022shinkan/images/logo_with_catch.png',
+          'https://wasedasai.github.io/2022shinkan/images/logo_with_catch_green.png',
       },
     ],
     link: [
