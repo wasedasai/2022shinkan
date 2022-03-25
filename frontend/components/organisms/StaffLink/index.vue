@@ -17,7 +17,6 @@ export default {
       alt="staffinterviewの画像"
       class="link-image"
     />
-    <div class="name">{{ name }}さん</div>
   </nuxt-link>
 </template>
 
