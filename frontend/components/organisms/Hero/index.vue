@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 750px) {
   .hero {
-    height: 120px;
+    height: 160px;
   }
 }
 </style>

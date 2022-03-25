@@ -81,7 +81,7 @@ export default {
     <section class="about-section">
       <div class="section-inner">
         <div class="box">
-          <div class="content">
+          <div class="content content1">
             <div>
               <h1>早稲田祭とは</h1>
               <div class="sp_only">
@@ -108,7 +108,7 @@ export default {
           <div class="pc_only">
             <img src="~assets/images/demo_images/sample2.jpg" alt="画像" />
           </div>
-          <div class="content">
+          <div class="content content2">
             <div>
               <h1>運営スタッフとは</h1>
               <div class="sp_only">
@@ -251,6 +251,7 @@ export default {
 
 .about-section {
   background: #dde6cb;
+  overflow: hidden;
 }
 
 .about-section .box {
@@ -280,6 +281,39 @@ export default {
 
 .about-section .box .sp_only {
   display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .about-section .content1,
+  .about-section .content2 {
+    position: relative;
+  }
+
+  .about-section .content1::before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -40px;
+    left: -60px;
+    background-image: url('~assets/images/flowers/pink_green_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .about-section .content2::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
+    background-image: url('~assets/images/flowers/green_cha_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -368,5 +402,50 @@ export default {
 
 .news-section .box .item .time {
   padding-right: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .news-section {
+    position: relative;
+  }
+
+  .news-section::before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    background-image: url('~assets/images/flowers/pink_green_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .news-section::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    background-image: url('~assets/images/flowers/green_cha_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .news-section .box::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 20px;
+    right: 160px;
+    background-image: url('~assets/images/flowers/orange_green_red.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 </style>

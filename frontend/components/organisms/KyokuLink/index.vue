@@ -63,7 +63,7 @@ export default {
   background-image: url('~assets/images/kyoku_link/bgType5.jpg');
 }
 .bgType6 {
-  background-image: url('~assets/images/kyoku_link/bgType6.jpg');
+  background-image: url('~assets/images/kyoku_link/santai_top.jpg');
 }
 .bgType7 {
   background-image: url('~assets/images/kyoku_link/bgType7.jpg');

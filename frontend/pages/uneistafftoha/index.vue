@@ -164,6 +164,23 @@ export default {
   border-radius: 12px;
 }
 
+.daihyo-section {
+  position: relative;
+}
+
+.daihyo-section::after {
+  content: '';
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+  background-image: url('~assets/images/tree_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media screen and (max-width: 750px) {
   .daihyo-section .section-inner {
     flex-direction: column;
