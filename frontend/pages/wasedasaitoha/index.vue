@@ -68,14 +68,28 @@
       <div class="wrapper">
         <h1 class="section-title">フォトギャラリー</h1>
         <div class="container">
-          <div class="item"><img src="~assets/images/photos/photo1.jpg" /></div>
-          <div class="item"><img src="~assets/images/photos/photo2.jpg" /></div>
-          <div class="item"><img src="~assets/images/photos/photo3.jpg" /></div>
-          <div class="item"><img src="~assets/images/photos/photo4.jpg" /></div>
+          <div class="item item1">
+            <img src="~assets/images/photos/photo1.jpg" />
+          </div>
+          <div class="item item2">
+            <img src="~assets/images/photos/photo4.jpg" />
+          </div>
+          <div class="item item3">
+            <img src="~assets/images/photos/photo2.jpg" />
+          </div>
+          <div class="item item4">
+            <img src="~assets/images/photos/photo8.jpg" />
+          </div>
+          <div class="item item5 pc_only">
+            <img src="~assets/images/photos/photo3.jpg" />
+          </div>
+          <div class="item item6">
+            <img src="~assets/images/photos/photo6.jpg" />
+          </div>
+          <div class="item item7">
+            <img src="~assets/images/photos/photo7.jpg" />
+          </div>
           <div class="item"><img src="~assets/images/photos/photo5.jpg" /></div>
-          <div class="item"><img src="~assets/images/photos/photo6.jpg" /></div>
-          <div class="item"><img src="~assets/images/photos/photo7.jpg" /></div>
-          <div class="item"><img src="~assets/images/photos/photo8.jpg" /></div>
           <div class="item"><img src="~assets/images/photos/photo9.jpg" /></div>
           <div class="item">
             <img src="~assets/images/photos/photo10.jpg" />
@@ -92,7 +106,7 @@
           <div class="item">
             <img src="~assets/images/photos/photo14.jpg" />
           </div>
-          <div class="item">
+          <div class="item item15">
             <img src="~assets/images/photos/photo15.jpg" />
           </div>
           <div class="item">
@@ -106,16 +120,46 @@
 
 <style scoped>
 .photos-section .container {
+  padding-top: 1rem;
   display: grid;
   gap: 4px;
-  grid-template-columns: 2fr 0.5fr 1.5fr 2fr;
-  grid-template-rows: 180px 100px 80px 160px;
+  grid-template-columns: 1.5fr 1fr 1.5fr 2fr 1fr 1.5fr;
+  grid-template-rows: 200px 160px 120px 180px;
+}
+.item1 {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+.item2 {
+  grid-row: 1/2;
+  grid-column: 3/5;
+}
+.item3 {
+  grid-row: 2/4;
+  grid-column: 3/5;
+}
+.item7 {
+  grid-row: 4/5;
+  grid-column: 2/4;
+}
+@media screen and (max-width: 720px) {
+  .photos-section .container {
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item7 {
+    grid-row: auto;
+    grid-column: auto;
+  }
 }
 
 .photos-section .container .item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .wrapper {
