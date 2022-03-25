@@ -1,3 +1,20 @@
+<script>
+export default {
+  head: {
+    title: '局紹介　財務局',
+    meta: [
+      { hid: 'description', name: 'description', content: '財政面から早稲田祭を俯瞰し、予算・決算というかたちで祭の設計図を描く局です。財務局の紹介はこちら' },
+      { hid: 'keyword', name: 'keyword', content: '新歓、局紹介、財務局、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭' },
+      { hid: 'og:type', property: 'og:type', content: 'article' },
+      { hid: 'og:title', property: 'og:title', content: '局紹介　財務局' },
+      { hid: 'og:description', property: 'og:description', content: '財政面から早稲田祭を俯瞰し、予算・決算というかたちで祭の設計図を描く局です。財務局の紹介はこちら' },
+      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:image', property: 'og:image', content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png' }
+    ]
+  }
+}
+</script>
+
 <template>
   <main>
     <div class="foto-wrapper">

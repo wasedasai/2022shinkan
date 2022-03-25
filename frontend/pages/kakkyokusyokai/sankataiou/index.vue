@@ -1,3 +1,20 @@
+<script>
+export default {
+  head: {
+    title: '局紹介　参加対応局',
+    meta: [
+      { hid: 'description', name: 'description', content: '早稲田祭に出演する全ての参加団体・参加者をサポートする活動をしています！参加対応局の紹介はこちら' },
+      { hid: 'keyword', name: 'keyword', content: '新歓、局紹介、参加対応局、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭' },
+      { hid: 'og:type', property: 'og:type', content: 'article' },
+      { hid: 'og:title', property: 'og:title', content: '局紹介　参加対応局' },
+      { hid: 'og:description', property: 'og:description', content: '早稲田祭に出演する全ての参加団体・参加者をサポートする活動をしています！参加対応局の紹介はこちら' },
+      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:image', property: 'og:image', content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png' }
+    ]
+  }
+}
+</script>
+
 <template>
   <main>
     <div class="foto-wrapper">
