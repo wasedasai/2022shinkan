@@ -23,7 +23,7 @@ export default {
         content:
           '早稲田祭2022運営スタッフや新歓企画などについて、何かご質問がございましたらこちらまで',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'otoiawase' },
       {
         hid: 'og:image',
         property: 'og:image',

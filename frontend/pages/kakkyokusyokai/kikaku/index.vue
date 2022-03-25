@@ -23,7 +23,7 @@ export default {
         content:
           '「祭の節目を彩る企画」の演出を考え、運営する局です！企画局の紹介はこちら',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'kakkyokusyokai/kikaku' },
       {
         hid: 'og:image',
         property: 'og:image',

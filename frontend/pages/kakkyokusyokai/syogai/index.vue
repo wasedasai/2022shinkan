@@ -23,7 +23,7 @@ export default {
         content:
           '企業や校友、地域といった大学外部の主体とコミュニケーションをとり、早稲田祭の開催に必要なご支援やご協力をいただくために活動する部署です！渉外局の紹介はこちら',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'kakkyokusyokai/syogai' },
       {
         hid: 'og:image',
         property: 'og:image',

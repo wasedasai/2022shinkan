@@ -21,7 +21,7 @@ export default {
         property: 'og:description',
         content: '早稲田祭2022運営スタッフへの入会方法はこちらから',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'nyuukaihouhou' },
       {
         hid: 'og:image',
         property: 'og:image',

@@ -23,7 +23,7 @@ export default {
         content:
           '早稲田祭や運営スタッフの魅力を惜しみなく伝えます！サークルとしての基本情報から運営スタッフの大学生活まで、みなさんの気になる情報をお届けします。詳細はこちら！！',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'eventichiran' },
       {
         hid: 'og:image',
         property: 'og:image',

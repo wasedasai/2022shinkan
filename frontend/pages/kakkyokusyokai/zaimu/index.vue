@@ -23,7 +23,7 @@ export default {
         content:
           '財政面から早稲田祭を俯瞰し、予算・決算というかたちで祭の設計図を描く局です。財務局の紹介はこちら',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'kakkyokusyokai/zaimu' },
       {
         hid: 'og:image',
         property: 'og:image',

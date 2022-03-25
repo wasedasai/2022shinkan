@@ -23,7 +23,11 @@ export default {
         content:
           '早稲田祭に出演する全ての参加団体・参加者をサポートする活動をしています！参加対応局の紹介はこちら',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'kakkyokusyokai/sankataiou',
+      },
       {
         hid: 'og:image',
         property: 'og:image',

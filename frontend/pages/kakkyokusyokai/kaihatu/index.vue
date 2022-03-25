@@ -23,7 +23,7 @@ export default {
         content:
           '早稲田祭の現状を分析し、斬新な発想や、今までにない企画や取り組みを通して、早稲田祭をさらに発展させていきます。開発局の紹介はこちら',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'kakkyokusyokai/kaihatu' },
       {
         hid: 'og:image',
         property: 'og:image',

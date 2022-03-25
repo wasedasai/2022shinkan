@@ -1,3 +1,43 @@
+<script>
+export default {
+  head: {
+    title: 'スタッフインタビュー',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '運営スタッフにさまざまな質問をしました！運営スタッフの実態を知ることができます。',
+      },
+      {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          '新歓、スタッフインタビュー、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'article' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'スタッフインタビュー',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '運営スタッフにさまざまな質問をしました！運営スタッフの実態を知ることができます。',
+      },
+      { hid: 'og:url', property: 'og:url', content: 'staffintervew' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+    ],
+  },
+}
+</script>
+
 <template>
   <main>
     <div class="hero-wrapper">

@@ -17,8 +17,17 @@ export default {
       },
       { hid: 'og:type', property: 'og:type', content: 'article' },
       { hid: 'og:title', property: 'og:title', content: '局紹介　会場整備局' },
-      { hid: 'og:description', property: 'og:description', content: '' },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '早稲田祭当日の会場で活躍することができる局です！会場整備局の紹介はこちら',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'kakkyokusyokai/kaijyoseibi',
+      },
       {
         hid: 'og:image',
         property: 'og:image',

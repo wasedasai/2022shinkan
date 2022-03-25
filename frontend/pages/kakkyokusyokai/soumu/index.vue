@@ -21,7 +21,7 @@ export default {
         property: 'og:description',
         content: '運営スタッフ内部の資源を取り扱う局です！総務局の紹介はこちら',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'kakkyokusyokai/soumu' },
       {
         hid: 'og:image',
         property: 'og:image',

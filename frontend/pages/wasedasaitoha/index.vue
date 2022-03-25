@@ -21,7 +21,7 @@ export default {
         property: 'og:description',
         content: '早稲田祭の歴史、規模、当日の様子が掲載されています',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'wasedasaitoha' },
       {
         hid: 'og:image',
         property: 'og:image',

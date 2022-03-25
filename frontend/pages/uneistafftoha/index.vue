@@ -21,7 +21,7 @@ export default {
         property: 'og:description',
         content: '早稲田祭運営スタッフ2022代表挨拶や各局紹介はこちら！',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'uneistafftoha' },
       {
         hid: 'og:image',
         property: 'og:image',

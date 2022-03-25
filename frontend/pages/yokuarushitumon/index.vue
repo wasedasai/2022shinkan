@@ -21,7 +21,7 @@ export default {
         property: 'og:description',
         content: 'よくある質問はこちらからご覧いただけます',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'yokuarushitumon' },
       {
         hid: 'og:image',
         property: 'og:image',

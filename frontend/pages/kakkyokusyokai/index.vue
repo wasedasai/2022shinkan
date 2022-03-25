@@ -23,7 +23,7 @@ export default {
         content:
           '早稲田祭2022運営スタッフには、全部で8つの局があります。各局の紹介はこちら',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'kakkyokusyokai' },
       {
         hid: 'og:image',
         property: 'og:image',

@@ -25,7 +25,7 @@ export default {
         property: 'og:description',
         content: '運営スタッフのさまざまな情報が掲載されています',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      { hid: 'og:url', property: 'og:url', content: 'zentaizowotukamou' },
       {
         hid: 'og:image',
         property: 'og:image',

@@ -23,7 +23,11 @@ export default {
         content:
           '広報制作局は、早稲田祭を「魅せる」局です。広報制作局の紹介はこちら',
       },
-      { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'kakkyokusyokai/kouhouseisaku',
+      },
       {
         hid: 'og:image',
         property: 'og:image',
