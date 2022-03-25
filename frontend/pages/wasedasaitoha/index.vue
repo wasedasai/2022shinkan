@@ -27,6 +27,32 @@ export default {
         property: 'og:image',
         content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
       },
+      // Twitter
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: '早稲田祭運営スタッフ2022新歓 早稲田祭とは',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: '早稲田祭の歴史、規模、当日の様子が掲載されています',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: 'https://wasedasai.github.io/2022shinkan/',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
     ],
   },
 }

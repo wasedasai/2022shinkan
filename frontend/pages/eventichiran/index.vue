@@ -29,6 +29,33 @@ export default {
         property: 'og:image',
         content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
       },
+      // Twitter
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: '早稲田祭運営スタッフ2022新歓 新歓イベント一覧',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          '早稲田祭や運営スタッフの魅力を惜しみなく伝えます！サークルとしての基本情報から運営スタッフの大学生活まで、みなさんの気になる情報をお届けします。詳細はこちら！！',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: 'https://wasedasai.github.io/2022shinkan/',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
     ],
   },
 }

@@ -29,6 +29,33 @@ export default {
         property: 'og:image',
         content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
       },
+      // Twitter
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: '早稲田祭運営スタッフ2022新歓 局紹介　財務局',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          '財政面から早稲田祭を俯瞰し、予算・決算というかたちで祭の設計図を描く局です。財務局の紹介はこちら',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: 'https://wasedasai.github.io/2022shinkan/',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
     ],
   },
 }

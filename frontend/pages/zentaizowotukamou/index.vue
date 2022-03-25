@@ -31,6 +31,32 @@ export default {
         property: 'og:image',
         content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
       },
+      // Twitter
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: '早稲田祭運営スタッフ2022新歓 運営スタッフの全体像をつかもう',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: '運営スタッフのさまざまな情報が掲載されています',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: 'https://wasedasai.github.io/2022shinkan/',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
     ],
   },
 }
@@ -54,7 +80,7 @@ export default {
           </li>
           <li>
             02.学部
-            <img src="~assets/images/zentaizo_page/gakubu.jpg" alt="学部" />
+            <img src="~assets/images/zentaizo_page/gakubu2.png" alt="学部" />
           </li>
           <li>
             03.第二外国語
@@ -179,7 +205,7 @@ export default {
 .container li {
   color: #4c2219;
   font-weight: 600;
-  width: 40%;
+  width: 45%;
 }
 
 .container li img {

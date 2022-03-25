@@ -29,6 +29,33 @@ export default {
         property: 'og:image',
         content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
       },
+      // Twitter
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: '早稲田祭運営スタッフ2022新歓 局紹介　渉外局',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          '企業や校友、地域といった大学外部の主体とコミュニケーションをとり、早稲田祭の開催に必要なご支援やご協力をいただくために活動する部署です！渉外局の紹介はこちら',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: 'https://wasedasai.github.io/2022shinkan/',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
     ],
   },
 }
