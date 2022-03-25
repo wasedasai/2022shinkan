@@ -81,7 +81,7 @@
         /></a>
       </div>
       <div class="text">
-        <img src="~assets/images/footer_white.png" class="etunenlogo">
+        <img src="~assets/images/footer_white.png" class="etunenlogo" />
       </div>
     </div>
   </footer>
@@ -160,11 +160,11 @@ hr {
 .sns-links-container .sns-link:hover {
   filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
 }
-.text{
+.text {
   display: flex;
   justify-content: center;
 }
-.etunenlogo{
+.etunenlogo {
   width: 40%;
   margin: 5% 5% 0 5%;
   object-fit: cover;
