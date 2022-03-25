@@ -29,7 +29,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+        content: 'images/tree_logo.png',
       },
     ],
   },
