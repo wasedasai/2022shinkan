@@ -175,6 +175,12 @@ export default {
         </div>
       </div>
     </section>
+    <section class="flowers-section">
+      <div class="section-inner">
+        <div class="flowers_box1"></div>
+        <div class="flowers_box2"></div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -253,6 +259,38 @@ export default {
   gap: 2rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .data-section {
+    position: relative;
+  }
+
+  .data-section::before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-image: url('~assets/images/flowers/pink_green_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .data-section::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-image: url('~assets/images/flowers/green_cha_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 .data-section .box .item {
   background: #4f9236;
   width: 100%;
@@ -283,5 +321,72 @@ export default {
 
 .photos-section .section-title {
   text-align: center;
+}
+
+.flowers-section .section-inner {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .flowers-section .section-inner {
+    display: flex;
+  }
+  .flowers-section .flowers_box1,
+  .flowers_box2 {
+    position: relative;
+    width: 100%;
+  }
+
+  .flowers-section .flowers_box1::before {
+    content: '';
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    background-image: url('~assets/images/flowers/pink_green_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flowers-section .flowers_box1::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    right: 10%;
+    background-image: url('~assets/images/flowers/green_cha_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flowers-section .flowers_box2::before {
+    content: '';
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    background-image: url('~assets/images/flowers/pink_green_orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flowers-section .flowers_box2::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    right: 10%;
+    background-image: url('~assets/images/flowers/orange_green_red.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 </style>
