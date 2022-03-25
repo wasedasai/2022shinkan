@@ -69,6 +69,28 @@ export default {
     <section>
       <div class="section-inner">
         <div class="item">
+          <div id="welcome" class="event-linker" />
+          <h1>ウェルカムステージ</h1>
+          <div class="content">
+            <div class="image_wrapper">
+              <img src="~assets/images/events/welcome.jpg" alt="画像" />
+            </div>
+            <div class="description">
+              <p>
+                早稲田祭2022運営スタッフの魅力についてちょこっとだけお話しします。
+                たった5分で聞ける説明だからこそ、気軽にご参加が可能です。
+                運営スタッフに少しでも興味ある方はぜひ！
+              </p>
+              <ul>
+                <li>
+                  4月2日(土) 15:00〜15:30 @早稲田キャンパス 15号館 101教室
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
           <div id="setsumeikai" class="event-linker" />
           <h1>説明会</h1>
           <div class="content">
@@ -154,28 +176,6 @@ export default {
                 </li>
                 <li>
                   4月15日(金) 16:30～18:00 @早稲田キャンパス・戸山キャンパス周辺
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div id="welcome" class="event-linker" />
-          <h1>ウェルカムステージ</h1>
-          <div class="content">
-            <div class="image_wrapper">
-              <img src="~assets/images/events/welcome.jpg" alt="画像" />
-            </div>
-            <div class="description">
-              <p>
-                早稲田祭2022運営スタッフの魅力についてちょこっとだけお話しします。
-                たった5分で聞ける説明だからこそ、気軽にご参加が可能です。
-                運営スタッフに少しでも興味ある方はぜひ！
-              </p>
-              <ul>
-                <li>
-                  4月2日(土) 15:00〜15:30 @早稲田キャンパス 15号館 101教室
                 </li>
               </ul>
             </div>
