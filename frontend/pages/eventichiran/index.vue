@@ -27,7 +27,8 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+        content:
+          'https://wasedasai.github.io/2022shinkan/images/logo_with_catch_green.png',
       },
       // Twitter
       {
@@ -54,7 +55,8 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+        content:
+          'https://wasedasai.github.io/2022shinkan/images/logo_with_catch_green.png',
       },
     ],
   },
