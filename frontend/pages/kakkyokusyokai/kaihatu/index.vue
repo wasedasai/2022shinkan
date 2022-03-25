@@ -3,15 +3,34 @@ export default {
   head: {
     title: '局紹介　開発局',
     meta: [
-      { hid: 'description', name: 'description', content: '早稲田祭の現状を分析し、斬新な発想や、今までにない企画や取り組みを通して、早稲田祭をさらに発展させていきます。開発局の紹介はこちら' },
-      { hid: 'keyword', name: 'keyword', content: '新歓、局紹介、開発局、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '早稲田祭の現状を分析し、斬新な発想や、今までにない企画や取り組みを通して、早稲田祭をさらに発展させていきます。開発局の紹介はこちら',
+      },
+      {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          '新歓、局紹介、開発局、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+      },
       { hid: 'og:type', property: 'og:type', content: 'article' },
       { hid: 'og:title', property: 'og:title', content: '局紹介　開発局' },
-      { hid: 'og:description', property: 'og:description', content: '早稲田祭の現状を分析し、斬新な発想や、今までにない企画や取り組みを通して、早稲田祭をさらに発展させていきます。開発局の紹介はこちら' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '早稲田祭の現状を分析し、斬新な発想や、今までにない企画や取り組みを通して、早稲田祭をさらに発展させていきます。開発局の紹介はこちら',
+      },
       { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
-      { hid: 'og:image', property: 'og:image', content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png' }
-    ]
-  }
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+    ],
+  },
 }
 </script>
 

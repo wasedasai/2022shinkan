@@ -3,15 +3,34 @@ export default {
   head: {
     title: 'お問い合わせ',
     meta: [
-      { hid: 'description', name: 'description', content: '早稲田祭2022運営スタッフや新歓企画などについて、何かご質問がございましたらこちらまで' },
-      { hid: 'keyword', name: 'keyword', content: '新歓、お問い合わせ、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '早稲田祭2022運営スタッフや新歓企画などについて、何かご質問がございましたらこちらまで',
+      },
+      {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          '新歓、お問い合わせ、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+      },
       { hid: 'og:type', property: 'og:type', content: 'article' },
       { hid: 'og:title', property: 'og:title', content: 'お問い合わせ' },
-      { hid: 'og:description', property: 'og:description', content: '早稲田祭2022運営スタッフや新歓企画などについて、何かご質問がございましたらこちらまで' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '早稲田祭2022運営スタッフや新歓企画などについて、何かご質問がございましたらこちらまで',
+      },
       { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
-      { hid: 'og:image', property: 'og:image', content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png' }
-    ]
-  }
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+    ],
+  },
 }
 </script>
 

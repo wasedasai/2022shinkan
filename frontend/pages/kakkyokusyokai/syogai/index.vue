@@ -3,15 +3,34 @@ export default {
   head: {
     title: '局紹介　渉外局',
     meta: [
-      { hid: 'description', name: 'description', content: '企業や校友、地域といった大学外部の主体とコミュニケーションをとり、早稲田祭の開催に必要なご支援やご協力をいただくために活動する部署です！渉外局の紹介はこちら' },
-      { hid: 'keyword', name: 'keyword', content: '新歓、局紹介、渉外局、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '企業や校友、地域といった大学外部の主体とコミュニケーションをとり、早稲田祭の開催に必要なご支援やご協力をいただくために活動する部署です！渉外局の紹介はこちら',
+      },
+      {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          '新歓、局紹介、渉外局、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+      },
       { hid: 'og:type', property: 'og:type', content: 'article' },
       { hid: 'og:title', property: 'og:title', content: '局紹介　渉外局' },
-      { hid: 'og:description', property: 'og:description', content: '企業や校友、地域といった大学外部の主体とコミュニケーションをとり、早稲田祭の開催に必要なご支援やご協力をいただくために活動する部署です！渉外局の紹介はこちら' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '企業や校友、地域といった大学外部の主体とコミュニケーションをとり、早稲田祭の開催に必要なご支援やご協力をいただくために活動する部署です！渉外局の紹介はこちら',
+      },
       { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
-      { hid: 'og:image', property: 'og:image', content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png' }
-    ]
-  }
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+    ],
+  },
 }
 </script>
 

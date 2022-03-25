@@ -3,15 +3,32 @@ export default {
   head: {
     title: '運営スタッフとは',
     meta: [
-      { hid: 'description', name: 'description', content: '早稲田祭運営スタッフ2022代表挨拶や各局紹介はこちら！' },
-      { hid: 'keyword', name: 'keyword', content: '新歓、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: '早稲田祭運営スタッフ2022代表挨拶や各局紹介はこちら！',
+      },
+      {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          '新歓、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+      },
       { hid: 'og:type', property: 'og:type', content: 'article' },
       { hid: 'og:title', property: 'og:title', content: '運営スタッフとは' },
-      { hid: 'og:description', property: 'og:description', content: '早稲田祭運営スタッフ2022代表挨拶や各局紹介はこちら！' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: '早稲田祭運営スタッフ2022代表挨拶や各局紹介はこちら！',
+      },
       { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
-      { hid: 'og:image', property: 'og:image', content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png' }
-    ]
-  }
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+    ],
+  },
 }
 </script>
 

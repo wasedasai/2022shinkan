@@ -3,15 +3,34 @@ export default {
   head: {
     title: '新歓イベント一覧',
     meta: [
-      { hid: 'description', name: 'description', content: '早稲田祭や運営スタッフの魅力を惜しみなく伝えます！サークルとしての基本情報から運営スタッフの大学生活まで、みなさんの気になる情報をお届けします。詳細はこちら！！' },
-      { hid: 'keyword', name: 'keyword', content: '新歓、新歓イベント、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '早稲田祭や運営スタッフの魅力を惜しみなく伝えます！サークルとしての基本情報から運営スタッフの大学生活まで、みなさんの気になる情報をお届けします。詳細はこちら！！',
+      },
+      {
+        hid: 'keyword',
+        name: 'keyword',
+        content:
+          '新歓、新歓イベント、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+      },
       { hid: 'og:type', property: 'og:type', content: 'article' },
       { hid: 'og:title', property: 'og:title', content: '新歓イベント一覧' },
-      { hid: 'og:description', property: 'og:description', content: '早稲田祭や運営スタッフの魅力を惜しみなく伝えます！サークルとしての基本情報から運営スタッフの大学生活まで、みなさんの気になる情報をお届けします。詳細はこちら！！' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '早稲田祭や運営スタッフの魅力を惜しみなく伝えます！サークルとしての基本情報から運営スタッフの大学生活まで、みなさんの気になる情報をお届けします。詳細はこちら！！',
+      },
       { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
-      { hid: 'og:image', property: 'og:image', content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png' }
-    ]
-  }
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+    ],
+  },
 }
 </script>
 
