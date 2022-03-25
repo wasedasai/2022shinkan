@@ -80,6 +80,9 @@
             alt="noteのリンク"
         /></a>
       </div>
+      <div class="text">
+        <img src="~assets/images/footer_white.png" class="etunenlogo" />
+      </div>
     </div>
   </footer>
 </template>
@@ -156,6 +159,15 @@ hr {
 }
 .sns-links-container .sns-link:hover {
   filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
+}
+.text {
+  display: flex;
+  justify-content: center;
+}
+.etunenlogo {
+  width: 40%;
+  margin: 5% 5% 0 5%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 720px) {
