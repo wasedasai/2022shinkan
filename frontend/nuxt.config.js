@@ -8,8 +8,65 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: '早稲田祭運営スタッフ2022新歓サイトです',
+      },
       { name: 'format-detection', content: 'telephone=no' },
+      // OG
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: '早稲田祭運営スタッフ2022新歓サイト',
+      },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://wasedasai.github.io/2022shinkan/',
+      },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: '早稲田祭運営スタッフ2022新歓サイト',
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: '早稲田祭運営スタッフ2022新歓サイトです',
+      },
+      // Twitter
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: '早稲田祭運営スタッフ2022新歓サイト',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: '早稲田祭運営スタッフ2022新歓サイトです',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: 'https://wasedasai.github.io/2022shinkan/',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: 'https://wasedasai.github.io/2022shinkan/images/tree_logo.png',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },

@@ -142,16 +142,21 @@ export default {
           </li>
           <li>
             13.タスクは忙しいですか？
-            <img src="~assets/images/zentaizo_page/tasuku.jpg" alt="タスク" />
+            <p><small>147件の回答</small></p>
+            <img src="~assets/images/zentaizo_page/tasuku2.png" alt="タスク" />
           </li>
           <li>
             14.運スタに入った理由
-            <img src="~assets/images/zentaizo_page/reason.jpg" alt="入会理由" />
+            <img
+              src="~assets/images/zentaizo_page/reason2.png"
+              alt="入会理由"
+            />
           </li>
           <li>
             15.運スタに満足してますか？
+            <p><small>147件の回答</small></p>
             <img
-              src="~assets/images/zentaizo_page/manzokudo.jpg"
+              src="~assets/images/zentaizo_page/manzokudo2.png"
               alt="満足度"
             />
           </li>
@@ -168,8 +173,9 @@ export default {
           </li>
           <li>
             18.恋人はいますか？
+            <p><small>147件の回答</small></p>
             <img
-              src="~assets/images/zentaizo_page/renai.jpg"
+              src="~assets/images/zentaizo_page/renai2.png"
               alt="恋人の有無"
             />
           </li>

@@ -6,7 +6,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '早稲田祭運営スタッフ2022公式サイトです',
+        content: '早稲田祭運営スタッフ2022新歓サイトです',
       },
       {
         hid: 'keyword',
@@ -23,7 +23,7 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
-        content: '早稲田祭運営スタッフ2022公式サイトです',
+        content: '早稲田祭運営スタッフ2022新歓サイトです',
       },
       { hid: 'og:url', property: 'og:url', content: 'wasemeshi' },
       {
@@ -40,7 +40,7 @@ export default {
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: '早稲田祭運営スタッフ2022公式サイトです',
+        content: '早稲田祭運営スタッフ2022新歓サイトです',
       },
       {
         hid: 'twitter:card',
