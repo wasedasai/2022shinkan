@@ -43,6 +43,12 @@ export default {
   filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
 }
 
+@media screen and (max-width: 720px) {
+  .link-image {
+    height: 180px;
+  }
+}
+
 .s {
   background-image: url('~assets/images/staff_link/staff_s.png');
 }

@@ -50,57 +50,35 @@ export default {
         <ul class="container">
           <li>
             01.性別
-            <img
-              src="~assets/images/zentaizo_page/seibetu.jpg"
-              class="image1"
-              alt="性別"
-            />
+            <img src="~assets/images/zentaizo_page/seibetu.jpg" alt="性別" />
           </li>
           <li>
             02.学部
-            <img
-              src="~assets/images/zentaizo_page/gakubu.jpg"
-              class="image1"
-              alt="学部"
-            />
+            <img src="~assets/images/zentaizo_page/gakubu.jpg" alt="学部" />
           </li>
           <li>
             03.第二外国語
-            <img
-              src="~assets/images/zentaizo_page/nigai.jpg"
-              class="image1"
-              alt="二外"
-            />
+            <img src="~assets/images/zentaizo_page/nigai.jpg" alt="二外" />
           </li>
           <li>
             04.GPA
-            <img
-              src="assets/images/zentaizo_page/gpa.jpg"
-              class="image1"
-              alt="gpa"
-            />
+            <img src="~assets/images/zentaizo_page/gpa.jpg" alt="gpa" />
           </li>
           <li>
             05.受験方式
             <img
               src="~assets/images/zentaizo_page/jyukenhoho.jpg"
-              class="image1"
               alt="受験方法"
             />
           </li>
           <li>
             06.出身地
-            <img
-              src="~assets/images/zentaizo_page/syussin.jpg"
-              class="image1"
-              alt="出身地"
-            />
+            <img src="~assets/images/zentaizo_page/syussin.jpg" alt="出身地" />
           </li>
           <li>
             07.居住形態
             <img
               src="~assets/images/zentaizo_page/kyojyukeitai.jpg"
-              class="image1"
               alt="居住形態"
             />
           </li>
@@ -108,7 +86,6 @@ export default {
             08.バイトをしていますか？
             <img
               src="~assets/images/zentaizo_page/baito.jpg"
-              class="image1"
               alt="バイトの有無"
             />
           </li>
@@ -116,7 +93,6 @@ export default {
             09.バイトの種類
             <img
               src="~assets/images/zentaizo_page/baito_type.jpg"
-              class="image1"
               alt="バイトの種類"
             />
           </li>
@@ -124,47 +100,32 @@ export default {
             10.バイトの月収
             <img
               src="~assets/images/zentaizo_page/baito_gessyu.jpg"
-              class="image1"
               alt="バイトの月収"
             />
           </li>
           <li>
             11.兼サ―していますか？
-            <img
-              src="~assets/images/zentaizo_page/kensa.jpg"
-              class="image1"
-              alt="兼サー"
-            />
+            <img src="~assets/images/zentaizo_page/kensa.jpg" alt="兼サー" />
           </li>
           <li>
             12.兼サーの種類
             <img
               src="~assets/images/zentaizo_page/kensa_type.jpg"
-              class="image1"
               alt="兼サ―種類"
             />
           </li>
           <li>
             13.タスクは忙しいですか？
-            <img
-              src="~assets/images/zentaizo_page/tasuku.jpg"
-              class="image1"
-              alt="タスク"
-            />
+            <img src="~assets/images/zentaizo_page/tasuku.jpg" alt="タスク" />
           </li>
           <li>
             14.運スタに入った理由
-            <img
-              src="~assets/images/zentaizo_page/reason.jpg"
-              class="image1"
-              alt="入会理由"
-            />
+            <img src="~assets/images/zentaizo_page/reason.jpg" alt="入会理由" />
           </li>
           <li>
             15.運スタに満足してますか？
             <img
               src="~assets/images/zentaizo_page/manzokudo.jpg"
-              class="image1"
               alt="満足度"
             />
           </li>
@@ -172,23 +133,17 @@ export default {
             16.何年生の時に運スタに入りましたか？
             <img
               src="~assets/images/zentaizo_page/nyukaijiki.jpg"
-              class="image1"
               alt="入会時期"
             />
           </li>
           <li>
             17.22であなたは何年目？
-            <img
-              src="~assets/images/zentaizo_page/nannenme.jpg"
-              class="image1"
-              alt="何年目"
-            />
+            <img src="~assets/images/zentaizo_page/nannenme.jpg" alt="何年目" />
           </li>
           <li>
             18.恋人はいますか？
             <img
               src="~assets/images/zentaizo_page/renai.jpg"
-              class="image1"
               alt="恋人の有無"
             />
           </li>
@@ -210,18 +165,31 @@ export default {
   margin: auto;
 }
 
-.conteiner {
+.container {
+  max-width: 1024px;
+  padding: 1rem 1rem 80px;
+  margin: auto;
   list-style: none;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.conteiner li {
+.container li {
   color: #4c2219;
+  font-weight: 600;
+  width: 40%;
 }
 
-.image1 {
-  width: 40%;
+.container li img {
+  margin: 0;
   object-fit: cover;
+}
+
+@media screen and (max-width: 720px) {
+  .container li {
+    width: 100%;
+  }
 }
 </style>
