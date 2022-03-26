@@ -112,7 +112,12 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/sitemap',
   ],
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://https://wasedasai.github.io/2022shinkan/',
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
