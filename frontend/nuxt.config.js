@@ -69,6 +69,11 @@ export default {
         content:
           'https://wasedasai.github.io/2022shinkan/images/logo_with_catch_green.png',
       },
+      {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: 'cpM7aMyzq4nwUyTArzym9iLWG9Mh09S5LnSUQLnypZY',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
