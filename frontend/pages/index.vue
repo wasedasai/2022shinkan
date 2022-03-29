@@ -1,7 +1,7 @@
 <script>
 export default {
   head: {
-    title: '早稲田祭運営スタッフ2022新歓',
+    title: '早稲田祭2022運営スタッフ 新歓公式サイト',
     meta: [
       {
         hid: 'description',
