@@ -74,22 +74,20 @@ export default {
       </div>
       <div class="contents">
         <ul>
-          <li class="text">
-            <AtomsPartTitle>フォーム受付期間</AtomsPartTitle>
-            <strong>4月18日(月) 12:00〜4月21日(木) 23:59</strong>
-          </li>
-          <li class="text">
-            <AtomsPartTitle>結果通知メール</AtomsPartTitle>
-            <strong>〜4月27日(水) 12:00</strong>
-          </li>
           <li>
+            <AtomsPartTitle>フォーム受付期間</AtomsPartTitle>
+            4月18日(月) 12:00〜4月21日(木) 23:59
+          </li>
+          <li class="list">
+            <AtomsPartTitle>結果通知メール</AtomsPartTitle>
+            〜4月27日(水) 12:00
+          </li>
+          <li class="list">
             <AtomsPartTitle>入会申し込みフォームの記入事項</AtomsPartTitle>
-            <strong>
-              ・個人プロフィール<br />
-              ・志望理由（300字〜500字）<br />
-              ・自己アピール文（300字〜500字）<br />
-              ・その他情報
-            </strong>
+            ・個人プロフィール<br />
+            ・志望理由（300字〜500字）<br />
+            ・自己アピール文（300字〜500字）<br />
+            ・その他情報
           </li>
         </ul>
       </div>
@@ -121,7 +119,7 @@ export default {
   justify-content: center;
 }
 
-.text {
-  font-size: 1.3rem;
+.list {
+  padding-top: 5%;
 }
 </style>
