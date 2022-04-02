@@ -67,7 +67,38 @@ export default {
     </div>
 
     <section>
-      <div class="section-inner">Coming Soon</div>
+      <div class="section-inner">
+        入会受付期間中に、<strong>入会申し込みフォーム</strong>を提出してください。<br />
+        定員を上回った場合、提出いただいたフォームをもとに、運営スタッフによる選考を行います。<br />
+        結果は、入会の可否にかかわらずメールにて全員にご連絡いたします。
+      </div>
+      <div class="contents">
+        <ul>
+          <li class="text">
+            <AtomsPartTitle>フォーム受付期間</AtomsPartTitle>
+            <strong>4月18日(月) 12:00〜4月21日(木) 23:59</strong>
+          </li>
+          <li class="text">
+            <AtomsPartTitle>結果通知メール</AtomsPartTitle>
+            <strong>〜4月27日(水) 12:00</strong>
+          </li>
+          <li>
+            <AtomsPartTitle>入会申し込みフォームの記入事項</AtomsPartTitle>
+            <strong>
+              ・個人プロフィール<br />
+              ・志望理由（300字〜500字）<br />
+              ・自己アピール文（300字〜500字）<br />
+              ・その他情報
+            </strong>
+          </li>
+        </ul>
+      </div>
+      <div class="section-inner">
+        入会に関する詳細な情報は、<a
+          href="https://drive.google.com/file/d/1LNdDspz03iqG-OLnokmauKe1RrlMGvsW/view"
+          >こちらの募集要項</a
+        >からご確認ください
+      </div>
     </section>
   </main>
 </template>
@@ -80,7 +111,17 @@ export default {
 
 .section-inner {
   max-width: 1024px;
-  padding: 80px 1rem;
+  padding: 70px 1rem;
   margin: auto;
+  text-align: center;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-size: 1.3rem;
 }
 </style>
