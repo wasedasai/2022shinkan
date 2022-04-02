@@ -192,7 +192,12 @@ export default {
         <h1 class="section-title">NEWS</h1>
         <div class="box">
           <ul class="item">
-            <li class="time">2022/04/02 &emsp; 入会方法を公開しました。</li>
+            <li class="time">
+              2022/04/02 &emsp;
+              <a href="https://wasedasai.github.io/2022shinkan/nyuukaihouhou"
+                >入会方法</a
+              >を公開しました。
+            </li>
             <li class="time">
               2022/03/25 &emsp; 新歓公式サイトを公開しました。
             </li>
