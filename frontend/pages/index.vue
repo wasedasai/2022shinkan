@@ -12,7 +12,7 @@ export default {
         hid: 'keyword',
         name: 'keyword',
         content:
-          '新歓、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭',
+          '新歓、早稲田祭運営スタッフ、運スタ、早稲田、早稲田大学、早稲田祭、2022',
       },
       { hid: 'og:type', property: 'og:type', content: 'article' },
       {
@@ -73,7 +73,7 @@ export default {
     <section class="important-news-section">
       <div class="bar-wrapper">
         <div class="bar">
-          <strong>NEWS</strong> 2022/03/25 新歓公式サイトを公開しました。
+          <strong>NEWS</strong> 2022/04/02 入会方法を公開しました。
         </div>
       </div>
     </section>
@@ -191,10 +191,12 @@ export default {
       <div class="section-inner">
         <h1 class="section-title">NEWS</h1>
         <div class="box">
-          <div class="item">
-            <div class="time">2022/03/25</div>
-            <div>新歓公式サイトを公開しました。</div>
-          </div>
+          <ul class="item">
+            <li class="time">2022/04/02 &emsp; 入会方法を公開しました。</li>
+            <li class="time">
+              2022/03/25 &emsp; 新歓公式サイトを公開しました。
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -396,7 +398,6 @@ export default {
 }
 
 .news-section .box .item {
-  display: flex;
   padding: 0.5rem 0;
 }
 
