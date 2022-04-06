@@ -195,22 +195,25 @@ export default {
             <li class="time">
               2022/04/06
               <div class="news_content">
-                「早稲田祭とは、運営スタッフとは」基本情報がわかる動画を<a href="https://youtu.be/Z-2U9o9QBNc">YouTube</a>に公開中です。
+                「早稲田祭とは、運営スタッフとは」基本情報がわかる動画を<a
+                  href="https://youtu.be/Z-2U9o9QBNc"
+                  >YouTube</a
+                >に公開中です。
               </div>
             </li>
-            <hr/>
+            <hr />
             <li class="time">
               2022/04/02
               <div>
-                <a href="https://wasedasai.github.io/2022shinkan/nyuukaihouhou">入会方法</a>を公開しました。
+                <a href="https://wasedasai.github.io/2022shinkan/nyuukaihouhou"
+                  >入会方法</a
+                >を公開しました。
               </div>
             </li>
-            <hr/>
+            <hr />
             <li class="time">
               2022/03/25
-              <div>
-                新歓公式サイトを公開しました。
-              </div>
+              <div>新歓公式サイトを公開しました。</div>
             </li>
           </ul>
         </div>
