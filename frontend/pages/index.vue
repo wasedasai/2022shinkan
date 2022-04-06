@@ -73,7 +73,8 @@ export default {
     <section class="important-news-section">
       <div class="bar-wrapper">
         <div class="bar">
-          <strong>NEWS</strong> 2022/04/02 入会方法を公開しました。
+          <strong>NEWS</strong> 2022/04/06
+          「早稲田祭とは、運営スタッフとは」基本情報がわかる動画をYouTubeに公開中です。
         </div>
       </div>
     </section>
