@@ -73,8 +73,8 @@ export default {
     <section class="important-news-section">
       <div class="bar-wrapper">
         <div class="bar">
-          <strong>NEWS</strong> 2022/04/06
-          「早稲田祭とは、運営スタッフとは」基本情報がわかる動画をYouTubeに公開中です。
+          <strong>NEWS</strong> 2022/04/09
+          説明会動画の第2弾を公式YouTubeにて公開しました。
         </div>
       </div>
     </section>
@@ -194,12 +194,20 @@ export default {
         <div class="box">
           <ul class="item">
             <li class="time">
+              2022/04/09
+              <div class="news_content">
+                説明会動画の第2弾を公式<a href="https://youtu.be/qYKAqgpKSXg"
+                  >YouTube</a
+                >にて公開しました。
+              </div>
+            </li>
+            <hr />
+            <li class="time">
               2022/04/06
               <div class="news_content">
-                「早稲田祭とは、運営スタッフとは」基本情報がわかる動画を<a
-                  href="https://youtu.be/Z-2U9o9QBNc"
+                説明会動画の第1弾を公式<a href="https://youtu.be/Z-2U9o9QBNc"
                   >YouTube</a
-                >に公開中です。
+                >にて公開しました。
               </div>
             </li>
             <hr />
