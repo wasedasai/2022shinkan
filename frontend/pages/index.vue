@@ -73,8 +73,7 @@ export default {
     <section class="important-news-section">
       <div class="bar-wrapper">
         <div class="bar">
-          <strong>NEWS</strong> 2022/04/09
-          説明会動画の第2弾を公式YouTubeにて公開しました。
+          <strong>NEWS</strong> 2022/04/13 PDF版フリーペーパーをぜひご覧ください
         </div>
       </div>
     </section>
@@ -194,6 +193,26 @@ export default {
         <div class="box">
           <ul class="item">
             <li class="time">
+              2022/04/14
+              <div class="news_content">
+                <a
+                  href="https://drive.google.com/file/d/1vmLtlrxyfA5sC4eMlBheTqNQgLBTz6vD/view?usp=sharing"
+                >
+                  PDF版フリーペーパー</a
+                >をぜひご覧ください
+              </div>
+            </li>
+            <hr />
+            <li class="time">
+              2022/04/14
+              <div class="news_content">
+                「運スタの日常」予告編は<a href="https://youtu.be/JH5R2EG-F4M">
+                  こちら</a
+                >から！
+              </div>
+            </li>
+            <hr />
+            <li class="time">
               2022/04/09
               <div class="news_content">
                 説明会動画の第2弾を公式<a href="https://youtu.be/qYKAqgpKSXg"
@@ -256,6 +275,29 @@ export default {
   border-bottom-right-radius: 12px;
   filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
   color: #4c2219;
+}
+
+/* News */
+.box ul {
+  overflow-y: scroll;
+  height: 185px;
+  padding: 0;
+}
+
+.box ul::-webkit-scrollbar {
+  background: white;
+  width: 12px;
+  cursor: pointer;
+}
+
+.box ul::-webkit-scrollbar-thumb {
+  background: #804b40;
+  border-radius: 3px;
+}
+
+.news_container ul::-webkit-scrollbar-track {
+  background: #804b40;
+  border-radius: 6px;
 }
 
 @media screen and (min-width: 1200px) {
