@@ -73,7 +73,7 @@ export default {
     <section class="important-news-section">
       <div class="bar-wrapper">
         <div class="bar">
-          <strong>NEWS</strong> 2022/04/13 PDF版フリーペーパーをぜひご覧ください
+          <strong>NEWS</strong> 2022/04/14 PDF版フリーペーパーをぜひご覧ください
         </div>
       </div>
     </section>
@@ -285,7 +285,7 @@ export default {
 }
 
 .box ul::-webkit-scrollbar {
-  background: white;
+  background: #fff;
   width: 12px;
   cursor: pointer;
 }
@@ -293,11 +293,6 @@ export default {
 .box ul::-webkit-scrollbar-thumb {
   background: #804b40;
   border-radius: 3px;
-}
-
-.news_container ul::-webkit-scrollbar-track {
-  background: #804b40;
-  border-radius: 6px;
 }
 
 @media screen and (min-width: 1200px) {
