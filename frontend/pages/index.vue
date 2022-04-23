@@ -73,7 +73,8 @@ export default {
     <section class="important-news-section">
       <div class="bar-wrapper">
         <div class="bar">
-          <strong>NEWS</strong> 2022/04/14 PDF版フリーペーパーをぜひご覧ください
+          <strong>NEWS</strong> 2022/04/21
+          入会フォームの受け付けは終了しました。
         </div>
       </div>
     </section>
@@ -193,13 +194,18 @@ export default {
         <div class="box">
           <ul class="item">
             <li class="time">
+              2022/04/21
+              <div>入会フォームの受け付けは終了しました。</div>
+            </li>
+            <hr />
+            <li class="time">
               2022/04/14
               <div class="news_content">
                 <a
                   href="https://drive.google.com/file/d/1vmLtlrxyfA5sC4eMlBheTqNQgLBTz6vD/view?usp=sharing"
                 >
                   PDF版フリーペーパー</a
-                >をぜひご覧ください
+                >をぜひご覧ください。
               </div>
             </li>
             <hr />
